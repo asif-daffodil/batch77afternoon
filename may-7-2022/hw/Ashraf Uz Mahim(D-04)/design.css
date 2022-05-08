@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+.main_div {
+    background-color: #B81C85;
+    width: 1170px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 100px 8px;
+}
+form{
+    padding: 25px;
+}
+.form_size {
+    width: 600px;
+}
+.create_account {
+    text-align: center;
+    color: #666767;
+    background-color: #F1F3F4;
+    font-size: 26px;
+   border-bottom: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 9px 9px 0px 0px;
+}
+.middle_div {
+    background-color: white!important;
+    overflow: hidden;
+    padding: 25px;
+}
+.firstname_div {
+    float: left;
+}
+.lastname_div{
+    float: right;
+}
+strong {
+    color: #1EB792;
+}
+textarea#textarea {
+    width: 543px;
+    height: 75px;
+    border-color: #ddd;
+}
+input#first\ name {
+   width: 254px;
+   padding: 5px;
+   float: left;
+   border: 1px solid #ddd;
+}
+input#last\ name {
+   width: 254px;
+   padding: 5px;
+   float: right;
+   border: 1px solid #ddd;
+}
+.emailname_div {
+   margin-top: 60px;
+}
+input#email\ name {
+   width: 538px;
+   padding: 5px;
+   border: 1px solid #ddd;
+}
+.password_div {
+   margin-top: 12px;
+}
+input#password {
+   padding: 5px;
+   border: 1px solid #ddd;
+   width: 254px;
+}
+input#confirmpassword {
+   padding: 5.5px;
+   width: 251px;
+   border: 1px solid #ddd;
+}
+.confirmpasswordname_div {
+   float: right;
+   position: absolute;
+   top: 218px;
+   left: 337px;
+}
+.gendermale_div {
+   margin-top: 18px;
+   width: 80px;
+}
+.hobbies_div {
+   float: right;
+   position: absolute;
+   top: 284px;
+   width: 230px;
+   left: 339px;
+}
+.income_div {
+   margin-top: 18px;
+}
+select#incomeSource {
+   padding: 5px;
+   width: 266px;
+   border: 1px solid #ddd;
+}
+.incomerange_div {
+   float: right;
+   position: absolute;
+   top: 359px;
+   left: 340px;
+}
+input#incomerange {
+   width: 250px;
+   padding: 3px;
+}
+.age_div {
+   float: right;
+   position: absolute;
+   top: 423px;
+   left: 341px;
+}
+input#ageNo {
+   width: 246px;
+   padding: 5px;
+   border: 1px solid #ddd;
+}
+.textarea_div {
+   margin-top: 18px;
+}
+.img_div {
+   margin-top: 19px;
+}
+.footer_div {
+   background: #F1F3F4;
+   border-top: 1px solid #ddd;
+    padding: 12px;
+   height: 28px;
+   border-radius: 0px 0px 10px 10px;
+}
+input[type="reset"] {
+   background: #1EB792;
+    color: white;
+    padding: 9px 17px 9px 17px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    float: right;
+    position: absolute;
+    bottom: 33px;
+    left: 443px;
+}
+input[type="submit"] {
+   background: #1EB792;
+   color: white;
+   padding: 9px 17px 9px 17px;
+    border: none;
+   font-size: 15px;
+   border-radius: 4px;
+   float: right;
+    position: absolute;
+   bottom: 33px;
+   left: 520px;
+}
+strong.unique {
+   color: #6D6E6D;
+}
+.rightside_div {
+   float: right;
+   position: fixed;
+   font-size: 94px;
+   top: 63px;
+    left: 762px;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.reset_hoppe:hover{
+    background:#089371;
+}
+.create_koro:hover{
+    background:#089371;
+}

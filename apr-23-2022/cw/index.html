@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <form>
+      <label for="yname"> Your Name : </label>
+      <input type="text" placeholder="Your Name" id="yname" maxlength="10" />
+      <br /><br />
+      <label for="email"> Your Email : </label>
+      <input type="email" placeholder="Your Email Address" id="email" />
+      <br /><br />
+      <label for="number"> Your Phone Number : </label>
+      <input
+        type="number"
+        placeholder="Your Phone Number"
+        min="5"
+        id="number"
+      />
+      <br /><br />
+      <label for="url"> Your Web Address : </label>
+      <input type="url" placeholder="Your Web Address" id="url" />
+      <br /><br />
+      <label for="password"> Your Password : </label>
+      <input type="password" placeholder="Your Password" id="password" />
+      <br /><br />
+      <label for="date"> Your DOB : </label>
+      <input type="date" placeholder="Your DOB" id="date" />
+      <br /><br />
+      <label> Your Gender : </label>
+      <input type="radio" name="gndr" id="Male" />
+      <label for="Male">Male</label>
+      <input type="radio" name="gndr" id="Female" />
+      <label for="Female">Female</label>
+      <input type="radio" name="gndr" id="Others" />
+      <label for="Others">Others</label>
+      <input type="radio" name="gndr" id="Tiktoker" />
+      <label for="Tiktoker"> Tiktoker </label>
+      <br /><br />
+      <label> Your Quata : </label>
+      <input type="checkbox" id="Disabled" />
+      <label for="Disabled">Disabled</label>
+      <input type="checkbox" id="Women" />
+      <label for="Women">Women</label>
+      <input type="checkbox" id="Tribe" />
+      <label for="Tribe">Tribe</label>
+      <input type="checkbox" id="Freedom Fighter" />
+      <label for="Freedom Fighter"> Freedom Fighter </label>
+      <br /><br />
+      <label for="file"> Your Profile Picture : </label>
+      <input type="file"" id="file" />
+      <br /><br />
+      <label for="color"> Your Hair Color : </label>
+      <input type="color"" id="color" />
+      <br /><br />
+      <label for="range"> Your Volume : </label>
+      <input type="range"" id="range" onchange="jhamela()" />
+      <span id="jmsg"></span>
+      <br /><br />
+      <label for="time"> Your TOB : </label>
+      <input type="time"" id="time" />
+      <br /><br />
+      <label for="city"> Your City : </label>
+      <select id="city">
+        <option>--Select City--</option>
+        <option>Dhaka</option>
+        <option>Bogura</option>
+        <option>Joypurhat</option>
+        <option>Barishal</option>
+        <option>Others</option>
+      </select>
+      <br /><br />
+      <label for="cmt"> Your Comments : </label><br />
+      <textarea
+        id="cmt"
+        cols="60"
+        rows="5"
+        placeholder="Your Comments"
+      ></textarea>
+      <br /><br />
+      <input type="reset" value="Reload" />
+      <input type="submit" value="Sign up" />
+    </form>
+    <script>
+      const jmsg = document.getElementById("jmsg");
+      const range = document.getElementById("range");
+      const jhamela = (e) => {
+        jmsg.innerHTML = range.value;
+      };
+    </script>
+  </body>
+</html>

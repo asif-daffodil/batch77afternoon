@@ -1,0 +1,120 @@
+body {
+  font-family: Arial;
+}
+
+.main_div {
+  border: 1px solid black;
+  width: 500px;
+  float: left;
+  height: 250px;
+  background: beige;
+}
+
+marquee.markquee_line {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-size: 22px;
+}
+
+div.body_div {
+  padding: 6px 10px 20px 10px;
+  text-align: justify;
+}
+
+.main_divtwo {
+  position: absolute;
+  left: 526px;
+  width: 500px;
+  border: 1px solid black;
+  height: 250px;
+  background: #f5dcdc;
+}
+marquee.markquee_line2 {
+  border: 1px solid black;
+  background-color: #320303;
+  color: white;
+  padding: 6px;
+  font-size: 22px;
+}
+
+div.body_div2 {
+  padding: 6px 10px 20px 10px;
+  text-align: justify;
+}
+
+.main_divthree {
+  float: right;
+  width: 500px;
+  border: 1px solid black;
+  height: 250px;
+  background: #e2deff;
+  position: absolute;
+  left: 1046px;
+}
+
+marquee.markquee_line3 {
+  border: 1px solid black;
+  background-color: #3f36ff;
+  color: white;
+  padding: 6px;
+  font-size: 22px;
+}
+
+div.body_div3 {
+  padding: 6px 10px 20px 10px;
+  text-align: justify;
+}
+
+.iframe_div {
+  width: 500px;
+  height: 1003px;
+}
+
+.iframe_jugantor {
+  overflow: hidden;
+  margin-top: 50px;
+  height: 656px;
+}
+
+iframe.ifram_map {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  left: 527px;
+  top: 310px;
+}
+
+.main_ollistdiv {
+  width: 275px;
+  border: 1px solid black;
+  position: absolute;
+  top: 311px;
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  left: 1245px;
+  background: #c9878740;
+  padding: 15px;
+}
+
+.img_div {
+  height: 562px;
+  background: url(img/newmarket.jpg);
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 55px;
+  border: 1px solid black;
+}
+.text_span {
+  color: #ffb300;
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 471px;
+  margin-left: 23px;
+  font-family: arial;
+  overflow: hidden;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTMLTable</title>
+  </head>
+  <body>
+    <table
+      width="600"
+      border="1"
+      cellspacing="0"
+      cellpadding="10"
+      align="center"
+    >
+      <tr>
+        <td>S.N</td>
+        <td>Name</td>
+        <td>City</td>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Putin</td>
+        <td>Mosco</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Biaden</td>
+        <td>Washington</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Sheikh Hasina</td>
+        <td>Dhaka</td>
+      </tr>
+    </table>
+    <br /><br />
+    <table
+      width="600"
+      border="1"
+      cellspacing="0"
+      cellpadding="10"
+      align="center"
+    >
+      <thead>
+        <tr align="left">
+          <th>S.N</th>
+          <th>Name</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Putin</td>
+          <td>Mosco</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Biaden</td>
+          <td>Washington</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Sheikh Hasina</td>
+          <td>Dhaka</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>04</td>
+          <td>Modi</td>
+          <td>Deillih</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br /><br />
+    <!-- table>tr*5>td*7 -->
+    <table border="0" cellspacing="0" width="600" height="300" align="center">
+      <!-- tr no 1 -->
+      <tr>
+        <td colspan="2" bgcolor="black"></td>
+        <!-- <td></td> -->
+        <td></td>
+        <td></td>
+        <td rowspan="2" bgcolor="black"></td>
+        <td colspan="2" bgcolor="black"></td>
+        <!-- <td></td> -->
+      </tr>
+      <!-- tr no 2 -->
+      <tr>
+        <td></td>
+        <td rowspan="2" bgcolor="black"></td>
+        <td></td>
+        <td></td>
+        <!-- <td></td> -->
+        <td></td>
+        <td rowspan="3" bgcolor="black"></td>
+      </tr>
+      <!-- tr no 3 -->
+      <tr>
+        <td></td>
+        <!-- <td></td> -->
+        <td colspan="3" bgcolor="black"></td>
+        <!-- <td></td>
+        <td></td> -->
+        <td></td>
+        <!-- <td></td> -->
+      </tr>
+      <!-- tr no 4 -->
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <!-- <td></td> -->
+      </tr>
+      <!-- tr no 5 -->
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="3" bgcolor="black"></td>
+        <!-- <td></td>
+        <td></td> -->
+      </tr>
+    </table>
+  </body>
+</html>

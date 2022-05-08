@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form by HTML</title>
+</head>
+<body>
+    <marquee behavior="" direction="">  <h1> <span style="color: brown;">Assignment on make a HTML Form</span></h1></marquee>
+    <h1> <u> Registration of an application for Admission into <span style="color: brown;">BSc/MSc in CSE</span> </u> </h1>
+    <h3> **Please fill up the form correctly</h3>
+    <form action="">
+        <label for="name">Applicant's Name :</label>
+        <br>
+        <input type="text" placeholder="Applicant's name" id="name">
+        <br><br>
+
+        <!--Father's Name :-->
+        <label for="F-name">Father's Name :</label>
+        <br>
+        <input type="text" placeholder="Father's Name" id="F-name">
+        <br><br>
+
+        <!--Mother's Name :-->
+        <label for="M-name"> Mother's Name :</label>
+        <br>
+        <input type="text" placeholder="Mother's Name" id="M-name">
+        <br><br>
+
+        <!--DOB :-->
+        <label for="dob"> Date of Birth :</label>
+        <br>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!--Mobile Number-->
+        <label for="phone"> Mobile Number :</label>
+        <br>
+        <input type="text" placeholder="Please mention a valid number" id="phone">
+        <br><br>
+
+        <!--Email-->
+        <label for="email"> Email :</label>
+        <br>
+        <input type="text" placeholder="Please mention a valid email" id="email">
+        <br><br>
+
+        <!--NID-->
+        <label for="nid"> NID :</label>
+        <br>
+        <input type="text" placeholder="Please mention a valid nid" id="nid">
+        <br><br>
+
+        <!--Gender-->
+        <label> Gender :</label>
+        <br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Others
+        <br><br>
+
+        <!--Job experiencce-->
+        <label for="job"> Job Experience :</label>
+        <br>
+        <input type="number" placeholder="select" id="job"> 
+        <br><br>
+
+        <!--Religion-->
+        <label for="religion"> Religion :</label>
+        <br>
+        <select name="religion" id="religion">
+            <option value="select"> -- </option>
+            <option value="islam"> Islam </option>
+            <option value="hindu"> Hindu</option>
+            <option value="chiristanity"> Chiristanity</option>
+            <option value="other"> Other</option>
+        </select>
+        <br><br>
+
+        <!--Blood group-->
+        <label for="religion"> Blood Group :</label>
+        <br>
+        <select name="blood" id="blood">
+            <option value="select"> -- </option>
+            <option value="o-positive"> O+ </option>
+            <option value="o-negative"> O-</option>
+            <option value="a-plus"> A+</option>
+            <option value="a-minus"> A-</option>
+            <option value="b-plus"> B+</option>
+            <option value="b-minus"> B-</option>
+            <option value="ab-plus"> AB+</option>
+            <option value="ab-minus"> AB-</option>
+        </select>
+        <br><br>
+
+        <!--Nationality-->
+        <label for="nationality"> Nationality :</label>
+        <br>
+        <select name="nationality" id="nationality">
+            <option value="select"> -- </option>
+            <option value="bangladesh"> Bangladesh </option>
+            <option value="others"> Others</option> 
+        </select>
+        <br>
+        <label for="other"> If Others :</label>
+        <input type="text" placeholder="If others, write your country name" id="other"> 
+        <br><br>
+
+        <!--present address-->
+        <label for="address"> Present Address :</label>
+        <br>
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+        <br><br>
+
+        <!--premanent address-->
+        <label for="address"> Permanent Address :</label>
+        <br>
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+        <br>
+        <input type="checkbox" id="check">
+        <label for="check">same as present address</label>
+
+        <hr>
+        <h1>Academic qualifications:</h1>
+
+        <!--ssc or equivalent-->
+        <h2>SSS or Equivalent Level**</h2>
+        <label for="ssc">Examination: </label>
+        <select name="ssc" id="ssc">
+            <option value="select"> -- </option>
+            <option value="ssc"> SSC </option>
+            <option value="dakhil"> Dakhil</option>
+            <option value="vocational"> SSC Vocational</option>
+            <option value="O"> O Level/Cambridge</option>
+            <option value="equivalent"> SSC equivalent</option>
+        </select>
+        <br>
+        <label for="board">Board: </label>
+        <select name="board" id="board">
+            <option value="select"> -- </option>
+            <option value="dhaka"> Dhaka </option>
+            <option value="comilla"> Comilla</option>
+            <option value="rajshahi"> Rajshahi</option>
+            <option value="jessore"> Jessore</option>
+            <option value="barisal"> Barisal</option>
+            <option value="Chittagong"> Chittagong</option>
+            <option value="Sylhet"> Sylhet</option>
+            <option value="dinajpur"> Dinajpur</option>
+            <option value="madrasah"> Madrasah</option>
+            <option value="jessore"> Technical</option>
+            <option value="equivalent"> Others</option>
+        </select>
+        <br>
+
+        <!--Roll number-->
+        <label for="roll"> Roll Number: </label> <br>
+        <input type="text" placeholder="Roll Number">
+        <br>
+
+        <!--Result-->
+        <label for="cgpa"> CGPA/Division: </label> <br>
+        <input type="text" placeholder="cgpa/division">
+        <br>
+
+        <!--group-->
+        <label for="group">Group: </label> <br>
+        <select name="group" id="group">
+            <option value="select"> -- </option>
+            <option value="science"> Science </option>
+            <option value="arts"> Humanities </option>
+            <option value="business"> Business Studies</option>
+            <option value="other"> Others</option>
+        </select>
+        <br>
+
+        <!--passing year-->
+        <label for="passing">Passing Year: </label> <br>
+        <input data="year" placeholder="Passing year" id="passing">
+        <br><br>
+
+        <!--hsc or equivalent-->
+        <h2>HSC or Equivalent Level**</h2>
+        <label for="hsc">Examination: </label>
+        <select name="hsc" id="hsc">
+            <option value="select"> -- </option>
+            <option value="hsc"> HSC </option>
+            <option value="dakhil"> Alim</option>
+            <option value="vocational"> HSC Vocational</option>
+            <option value="O"> A Level/Cambridge</option>
+            <option value="equivalent"> HSC equivalent</option>
+        </select>
+        <br>
+        <label for="board">Board: </label>
+        <select name="board" id="board">
+            <option value="select"> -- </option>
+            <option value="dhaka"> Dhaka </option>
+            <option value="comilla"> Comilla</option>
+            <option value="rajshahi"> Rajshahi</option>
+            <option value="jessore"> Jessore</option>
+            <option value="barisal"> Barisal</option>
+            <option value="Chittagong"> Chittagong</option>
+            <option value="Sylhet"> Sylhet</option>
+            <option value="dinajpur"> Dinajpur</option>
+            <option value="madrasah"> Madrasah</option>
+            <option value="jessore"> Technical</option>
+            <option value="equivalent"> Others</option>
+        </select>
+        <br>
+
+        <!--Roll number-->
+        <label for="roll"> Roll Number: </label> <br>
+        <input type="text" placeholder="Roll Number">
+        <br>
+
+        <!--Result-->
+        <label for="cgpa"> CGPA/Division: </label> <br>
+        <input type="text" placeholder="cgpa/division">
+        <br>
+
+        <!--group-->
+        <label for="group">Group: </label> <br>
+        <select name="group" id="group">
+            <option value="select"> -- </option>
+            <option value="science"> Science </option>
+            <option value="arts"> Humanities </option>
+            <option value="business"> Business Studies</option>
+            <option value="other"> Others</option>
+        </select>
+        <br>
+
+        <!--passing year-->
+        <label for="passing">Passing Year: </label> <br>
+        <input data="year" placeholder="Passing year" id="passing">
+        <br><br>
+
+        <!--Bachelor or equivalent-->
+        <h2> Bachelor or Equivalent**</h2>
+        <label for="bachelor">Examination: </label>
+        <select name="bachelor" id="bachelor">
+            <option value="select"> -- </option>
+            <option value="bsc"> BSC Engineering</option>
+            <option value="bsc-science"> BSC Science</option>
+            <option value="honours"> Honours</option>
+            <option value="equivalent"> Others</option>
+        </select>
+        <br>
+        <label for="subject">Subject: </label>
+        <input type="text" placeholder="Subject" id="subject">
+        <br>
+
+        <!--Roll number-->
+        <label for="roll"> Roll Number: </label> <br>
+        <input type="text" placeholder="Roll Number">
+        <br>
+
+        <!--Course duration-->
+        <label for="duration"> Course Duration: </label> <br>
+        <input type="number" id="duration">
+        <br>
+
+        <!--Result-->
+        <label for="cgpa"> CGPA/Division: </label> <br>
+        <input type="text" placeholder="cgpa/division">
+        <br>
+
+        <!--passing year-->
+        <label for="passing">Passing Year: </label> <br>
+        <input data="year" placeholder="Passing year" id="passing">
+        <br><br>
+
+        <!--Masters or equivalent-->
+        <h2> Masters or Equivalent (if any)**</h2>
+        <label for="masters"> Examination: </label>
+        <select name="masters" id="masters">
+            <option value="select"> -- </option>
+            <option value="msc"> MSc in Engineering</option>
+            <option value="msc-science"> MSc in Science</option>
+            <option value="ba"> BA/BBA</option>
+            <option value="equivalent"> Others</option>
+        </select>
+        <br>
+        <label for="subject">Subject: </label>
+        <input type="text" placeholder="Subject" id="subject">
+        <br>
+
+        <!--Roll number-->
+        <label for="roll"> Roll Number: </label> <br>
+        <input type="text" placeholder="Roll Number">
+        <br>
+
+        <!--Course duration-->
+        <label for="duration"> Course Duration: </label> <br>
+        <input type="number" id="duration">
+        <br>
+
+        <!--Result-->
+        <label for="cgpa"> CGPA/Division: </label> <br>
+        <input type="text" placeholder="cgpa/division">
+        <br>
+
+        <!--passing year-->
+        <label for="passing">Passing Year: </label> <br>
+        <input data="year" placeholder="Passing year" id="passing">
+        <br><br>
+
+        <hr>
+        <!--accept-->
+        <input type="checkbox" id="check">
+        <label for="check">I hereby declare that all the above information are correct 
+            and assure that I will abide by all the rules.
+        </label>
+        <br><br>
+
+        <!--Submit-->
+        <input type="reset">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>

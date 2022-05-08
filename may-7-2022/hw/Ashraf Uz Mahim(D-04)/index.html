@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form Design</title>
+      <link rel="stylesheet" href="design.css"/>
+   </head>
+   <body>
+      <div class="main_div">
+         <form >
+            <div class="form_size">
+               <div class="create_account">
+                  <strong class="unique"><span>Create Account</span></strong>
+               </div>
+               <div class="middle_div">
+                  <div class="firstname_div">
+                     <strong> <label class="firstName" for="first name">First Name*</label></strong>
+                     <br/>
+                     <input class="name_class" type="text" placeholder="enter your first name" id="first name">
+                  </div>
+                  <div class="lastname_div">
+                     <strong> <label class="lastName" for="last name">Last Name*</label></strong>
+                     <br/>
+                     <input class="lastname_class" type="text" placeholder="enter your last name" id="last name">
+                  </div>
+                  <div class="emailname_div">
+                     <strong> <label class="emailName" for="email name">Email*</label></strong>
+                     <br/>
+                     <input class="emailname_class" type="email" placeholder="enter your email" id="email name">
+                  </div>
+                  <div class="password_div">
+                     <strong> <label class="passwordName" for="password">Password*</label></strong>
+                     <br/>
+                     <input class="passwordname_class" type="password" placeholder="enter your password" id="password">
+                  </div>
+                  <div class="confirmpasswordname_div">
+                     <strong> <label class="confirmpasswordName" for="confirmpassword">Confirm Password*</label></strong>
+                     <br/>
+                     <input class="confirmpassword_class" type="password" placeholder="confirm your password again" id="confirmpassword">
+                  </div>
+                  <div class="gendermale_div">
+                     <strong> <label class="genderName" >Gender:</label></strong>
+                     <br/>
+                     <input class="gender_class" type="radio" id="male" name="gender">
+                     <label for="male" >
+                     Male
+                     </label>
+                     <input class="gender_class" type="radio" id="female" name="gender"> <label for="female" >
+                     Female
+                     </label>
+                  </div>
+                  <div class="hobbies_div">
+                     <strong> <label class="hobbiesName" >Hobbies:</label></strong>
+                     <br/>
+                     <input class="hobbies_class" type="checkbox" id="hobbies" ><label for="hobbies" >
+                     Music
+                     </label>
+                     <input class="sports_class" type="checkbox" id="sports" ><label for="sports" >
+                     Sports
+                     </label>
+                     <input class="travel_class" type="checkbox" id="travel" ><label for="travel" >
+                     Travel
+                     </label>
+                     <input class="movies_class" type="checkbox" id="movies" > <label for="movies" >
+                     Movies
+                     </label>
+                  </div>
+                  <div class="income_div">
+                     <strong><label for="incomeSource"> 
+                     Source of Income
+                     </label></strong><br>
+                     <select name="" id="incomeSource">
+                        <option value="">Employed</option>
+                        <option value="">Banker</option>
+                        <option value="">Officer</option>
+                        <option value="">Police</option>
+                        <option value="">Freelancer</option>
+                        <option value="">Web developer</option>
+                     </select>
+                  </div>
+                  <div class="incomerange_div">
+                     <strong> <label for="incomerange">Income</label></strong>
+                     <br>
+                     <input class="income_report" type="range" id="incomerange">
+                  </div>
+                  <div class="img_div">
+                     <strong> <label for="image">Upload Profile Picture</label></strong><br>
+                     <input type="file" id="image">
+                  </div>
+                  <div class="age_div">
+                     <strong> <label for="ageNo">Age</label></strong><br>
+                     <input type="number" id="ageNo">
+                  </div>
+                  <div class="textarea_div"> 
+                     <strong><label for="textarea">Bio</label></strong><br>
+                     <textarea  id="textarea" cols="70" rows="10"></textarea>
+                  </div>
+               </div>
+               <div class="footer_div">
+                  <input class="reset_hoppe" type="reset" value="Reset">
+                  <input class="create_koro" type="submit" value="Create">
+               </div>
+         </form>
+         <div class="rightside_div">
+         <span>
+         pure <br/> <mark>html</mark> <br/> <mark>css</mark><br/> singup<br/> form
+         </span>
+         </div>
+         </div>  
+      </div>
+   </body>
+</html>

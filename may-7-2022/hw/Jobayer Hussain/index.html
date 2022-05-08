@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html form</title>
+</head>
+
+<body>
+<form style="border: 2px solid grey; padding:100px; margin: 50px 300px 50px 300px">
+
+  <h3>Identification Form:</h3>
+
+    <input type="text" name="Name" placeholder="First Name" required/>
+
+    <input type="text" name="Name" placeholder="Last Name" required/>
+    <br><br>
+
+    <label>Gender:
+
+    <label for="Male">
+    <input type="radio" name="gender" id="Male"/> Male
+    </label>
+
+    <label for="Female">
+      <input type="radio" name="gender" id="Female"/> Female
+      </label>
+
+      <label for="Others">
+        <input type="radio" name="gender" id="Others"/> Others
+        </label>
+      </label>
+
+    <br><br>
+
+    <input type="number" name="Age" placeholder="Age" min="13" max="60"/>
+
+    <label for="date">Birthdate:
+    <input type="date" name="date" id="date"></label>
+
+    <br><br>
+
+    <input type="number" name="phoneNumber" placeholder="Phone Number"</>
+
+    <input type="email" name="Email" placeholder="Email">
+
+    <br><br>
+    <label for="sports">Favorite sports:
+      <input type="checkbox" name="sports" id="sports"><label>Cricket</label>
+      <input type="checkbox" name="sports" id="sports"><label>Football</label>
+      <input type="checkbox" name="sports" id="sports"><label>Basketball</label>
+      <input type="checkbox" name="sports" id="sports"><label>Hockey</label>
+   </label>
+
+   <br><br>
+
+   <label for="sports">Favorite Color:
+  <input type="color"> 
+  </label>
+
+<br><br>
+
+  <label for="hometown"> Home town:
+    <select name="hometown" id="hometown">Home town:
+      <option value="Dhaka">Dhaka</option>
+      <option value="Chittagong">Chittagong</option>
+      <option value="">Comilla</option>
+      <option value="Khulna">Khulna</option>
+      <option value="Rajshahi">Rajshahi</option>
+  
+    </select>
+  </label>
+
+  <label for="Bloodgroup"> __ Blood Group:
+    <select name="hometown" id="hometown">Home town:
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="O+">O+</option>
+      <option value="B+">O+</option>
+      <option value="B-">B-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="B+">AB+</option>
+      <option value="B-">AB-</option>
+  
+    </select>
+  </label>
+
+<br><br>
+<label>Password:
+<input type="password" name="pass" id="pass" required>
+</label>
+<br><br>
+
+<textarea name="message" id="message" placeholder="Write a short bio about yourself..." cols="46" rows="5"></textarea>
+
+<br><br>
+
+<button type="reset" value="reset">Reset</button>
+<button type="reset" value="submit">Submit</button>
+<br><br>
+
+
+
+  </form>
+
+
+</body>
+</html>
