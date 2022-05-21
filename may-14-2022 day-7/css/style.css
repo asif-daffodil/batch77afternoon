@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  color: blue;
+  font-size: 24px;
+  font-family: arial;
+  text-decoration: underline;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -2px 2px 3px black;
+  width: 800px;
+  border: 6px double black;
+  /* border-width: 6px;
+  border-style: solid;
+  border-color: black; */
+  /* border-top-width: 6px;
+  border-top-style: dashed;
+  border-top-color: black; */
+  /* border-top: 6px dashed black; */
+  /* border-right-width: 6px;
+  border-right-style: solid;
+  border-right-color: black; */
+  /* border-right: 6px solid black; */
+  /* border-left-width: 6px;
+  border-left-style: solid;
+  border-left-color: black; */
+  /* border-left: 6px solid black; */
+  /* border-bottom-width: 6px;
+  border-bottom-style: double;
+  border-bottom-color: black; */
+  /* border-bottom: 6px double black; */
+  padding: 20px;
+  /* padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px; */
+  /* padding: 20px 30px 20px 30px; */
+  /* padding: 20px 30px; */
+  /* padding: 20px 30px 40px; */
+  /* margin: 20px; */
+  /* margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px; */
+  /* margin: 20px 30px 20px 30px; */
+  /* margin: 20px 30px;  */
+  /* margin: 20px 30px 40px; */
+  /* margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto; */
+  margin: 30px auto;
+  box-shadow: 5px 5px 5px yellow, 10px 10px 10px blue, 15px 15px 15px black,
+    -5px -5px 5px pink, -10px -10px 10px green, -15px -15px 15px black,
+    0 0 50px red inset;
+  border-radius: 10px;
+}
+
+.oDiv {
+  width: 800px;
+  height: 150px;
+  margin: auto;
+  border: 6px double black;
+}
+
+h1 {
+  width: max-content;
+  border: 1px solid black;
+  padding: 6px 20px;
+  margin: 6px;
+}
+
+.pakistan {
+  width: 600px;
+  border: 1px solid black;
+  padding: 6px 20px;
+  margin: 6px;
+  display: inline;
+}
+
+b {
+  width: 300px;
+  border: 1px solid black;
+  padding: 6px 20px;
+  margin: 6px;
+  display: block;
+}
+
+i {
+  width: 300px;
+  border: 1px solid black;
+  padding: 6px 20px;
+  margin: 6px;
+  display: inline-block;
+}

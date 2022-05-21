@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  padding: 20px;
+  font-weight: 300;
+  font-family: arial;
+  font-size: calc(20px + 2vw);
+}
+
+.heading::before {
+  content: "Mr. ";
+}
+
+.heading::after {
+  content: " boy";
+}
+
+.ashraf {
+  width: 300px;
+  height: 300px;
+  background: url("../images/alom.jpg");
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+}
+
+.ashraf::before {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: url("../images/dighi.jpg") no-repeat center / cover;
+  position: absolute;
+  top: -75px;
+  left: -75px;
+  transition: 1s;
+}
+
+.ashraf::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: url("../images/pori.jpg") no-repeat center / cover;
+  position: absolute;
+  bottom: -75px;
+  right: -75px;
+  transition: 1s;
+}
+
+.ashraf:hover::before {
+  top: 225px;
+  left: 225px;
+}
+.ashraf:hover::after {
+  bottom: 225px;
+  right: 225px;
+}
+
+.calculate {
+  width: calc(100% - 200px);
+  margin: 100px auto;
+  height: 100px;
+  background: cornflowerblue;
+  position: relative;
+}
+
+.calculate::before {
+  content: attr(b-content);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: calc(22px + 1.5vw);
+  font-family: Arial;
+  letter-spacing: 2px;
+  font-weight: 300;
+  text-shadow: 2px 2px 2px #000;
+  font-style: italic;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+.calculate:hover::before {
+  content: "Joy Bangla";
+}

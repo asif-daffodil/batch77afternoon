@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color: #1A14E6;
+}
+
+.world{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    background-color: #BAE6E4;
+    padding:30px;
+    width: 500px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow:  20px 40px 15px #888888;
+
+}

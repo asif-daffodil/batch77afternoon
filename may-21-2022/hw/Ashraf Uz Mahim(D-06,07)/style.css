@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6deaf;
+}
+
+.div_one {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 20px;
+  border: 1px solid #444444a4;
+  padding: 20px;
+  box-shadow: 0px 0px 40px -1px black;
+  border-radius: 20px;
+  border-radius: 18px;
+}
+
+.iam_hfirst {
+  color: #860f07;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+}
+.im_hfour {
+  color: #860f07;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-family: arial;
+}
+.iam_spanone {
+  color: #464141a8;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: "Bad Script", cursive;
+  font-size: 14px;
+  font-style: italic;
+}
+.iam_ptag {
+  font-style: italic;
+  font-size: 27px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #544949;
+}
+
+.iam_articleone {
+  width: 300px;
+  display: inline-block;
+
+  font-family: "Lilita One", cursive;
+  font-size: 17px;
+  color: #544949;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.iam_articletwo {
+  width: 251px;
+  display: inline-block;
+  float: right;
+  font-family: "Lilita One", cursive;
+  font-size: 17px;
+  color: #544949;
+}
+
+.iam_spantwo {
+  color: #464141a8;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: "Bad Script", cursive;
+  font-style: italic;
+  font-size: 11px;
+}
+hr {
+  border: 1px solid#00000012;
+}
+
+.div_two {
+  width: 1030px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.img_apone {
+  width: 400px;
+  height: 230px;
+  float: right;
+  margin-left: 30px;
+}
+.iam_paptagone {
+  width: 600px;
+  display: inline-block;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.iam_paptagtwo {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.iam_paptagthree {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.iam_aptagh1 {
+  margin-bottom: 20px;
+  color: #860f07;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 17px;
+  text-shadow: 0px 0px 6px #e4a98a;
+}
+.sizekoto {
+  font-size: 18px;
+  font-family: "Lilita One", cursive;
+  color: #544949e8;
+  font-style: italic;
+}
+.iam_footerdiv {
+  width: 1030px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 115px;
+  margin-top: 80px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #860f07a6;
+  color: white;
+  border: none;
+  border-bottom: 1px solid black;
+}
+button:hover {
+  background-color: #860f07;
+  cursor: pointer;
+}
+.footerSpan {
+  color: #000000d1;
+  font-family: "Bad Script", cursive;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/* this is lastfooter */
+
+.footer_twodiv {
+  width: 878px;
+  margin: 0 auto;
+  padding: 50px;
+  display: block;
+  border: 1px solid #860f079e;
+  margin-bottom: 150px;
+  box-shadow: 60px 60px 93px -40px, 2px 2px 45px 4px #7e1a13d6 inset;
+  border-radius: 44px 44px 44px 44px;
+}
+.lastfooter_hone {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #860f07;
+  font-size: 40px;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  text-shadow: 6px 4px 114px black;
+}
+.lastfooter_imgj {
+  width: 250px;
+  display: inline-block;
+  margin: 5px 55px -13px 23px;
+}
+.huddai_peradiv {
+  width: 420px;
+  float: right;
+  font-family: "Lilita One", cursive;
+  color: #544949c9;
+  font-size: 20px;
+  display: inline-block;
+  text-align: justify;
+}
+.lastfooter_htwo {
+  padding-bottom: 20px;
+}
+
+.pragraph_ceo {
+  padding-bottom: 10px;
+}
+
+/* this is send massage divition */
+
+.send_mainmassagediv {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 500px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 40px -1px black;
+  font-family: Arial, Helvetica, sans-serif, "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.div_contactus {
+  background-color: #b98a6c;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 18px 20px 0px 0px;
+}
+.div_bodyform {
+  padding: 40px;
+}
+
+.input_classSubmit {
+  width: 600px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #b98a6c;
+  padding: 20px;
+  height: 83px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 0px 18px 18px;
+}
+.nameInput {
+  width: 518px;
+  padding-left: 18px;
+  height: 44px;
+  margin-bottom: 18px;
+  border: none;
+  box-shadow: 0px 0px 11px 1px #5e0000 inset;
+  outline: none;
+}
+.emailInput {
+  width: 518px;
+  height: 44px;
+  margin-bottom: 18px;
+  border: none;
+  padding: 18px;
+  box-shadow: 0px 0px 11px 1px #5e0000 inset;
+  outline: none;
+}
+.subjectInput {
+  width: 518px;
+  height: 44px;
+  padding: 18px;
+  margin-bottom: 18px;
+  border: none;
+  box-shadow: 0px 0px 11px 1px #5e0000 inset;
+  outline: none;
+}
+
+.textarea_massage {
+  border: none;
+  width: 518px;
+  height: 140px;
+  padding: 18px;
+  margin-bottom: 18px px;
+  resize: none;
+  box-shadow: 0px 0px 11px 1px #5e0000 inset;
+  outline: none;
+}
+.input_classSubmit:hover {
+  background-color: #8b4848;
+  border: none;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  width: 520px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 50px 5px;
+  font-size: 20px;
+  height: 70px;
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.abc {
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    
+}
+
+.one {
+    text-align: center;
+    background-color: #59C3B8;
+    color: white;
+    border: 1px solid black;
+    margin: auto 350px auto 350px;
+}
+
+.two {
+    text-align: center;
+    background-color: #6E72AF;
+    color: white;
+    border: 1px solid black;
+    margin: auto 350px auto 350px;
+    
+}
+
+.three {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin: auto 350px auto 350px;
+}
+
+.age {
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px red;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px red;
+    
+}
+
+.other {
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px red;
+}
