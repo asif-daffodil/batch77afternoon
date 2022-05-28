@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 1100px;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: center; */
+}
+
+.header{
+    text-align: center;
+    font-size: 26px;
+    background-color: rgb(211, 184, 184);
+}
+
+.row{
+    display:flex;
+    /* display: flex; */
+    /* padding-right: 10px; */
+    /* position:relative;   */
+}
+
+.column{
+    /* display: flex; */
+    flex: 23%;
+    padding: 5px;
+}
+.flag-name{
+        text-align: center;
+    }
+    
+}
+/* Germany flag */
+.germany-parent{
+    width: 250px;
+    height: 150px;
+    background-color: darkgray;
+    margin: 5px;
+}
+
+.germany-child-1{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+}
+
+.germany-child-2{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+}
+
+.germany-child-3{
+    width: 250px;
+    height: 50px;
+    background-color: yellow;
+}
+
+/* France flag */
+.france-parent{
+    width: 250px;
+    height: 150px;
+    /* background-color: darkgray; */
+    margin: 5px;
+    /* flex: 33%; */
+    display: flex;
+}
+
+.france-child-1{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(4, 4, 103);
+}
+
+.france-child-2{
+    width: 83.33px;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.france-child-3{
+    width: 83.33px;
+    height: 150px;
+    background-color: red;
+}
+
+/* Belgium flag */
+.belgium-parent{
+    width: 250px;
+    height: 150px;
+    /* background-color: darkgray; */
+    margin: 5px;
+    /* flex: 33%; */
+    display: flex;
+}
+
+.belgium-child-1{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(5, 5, 5);
+}
+
+.belgium-child-2{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(249, 228, 0);
+}
+
+.belgium-child-3{
+    width: 83.33px;
+    height: 150px;
+    background-color: red;
+}
+
+/* Argentina flag */
+.argentina-parent{
+    width: 250px;
+    height: 150px;
+    /* background-color: rgb(80, 152, 178); */
+    margin: 10px;
+}
+
+.argentina-child-1{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(61, 122, 163);
+}
+
+.argentina-child-2{
+    width: 250px;
+    height: 50px;
+    background: url(./ar.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+
+.argentina-child-3{
+    width: 250px;
+    height: 50px;
+    background-color:rgb(61, 122, 163);
+}
+
+
+/* hover using for Italy flag */
+.column a button:hover{
+    background-color: aquamarine;
+}
+
+/* France flag hover by Italy flag */
+/* France flag */
+.france-parent-italy{
+    width: 250px;
+    height: 150px;
+    /* background-color: darkgray; */
+    margin: 5px;
+    /* flex: 33%; */
+    display: flex;
+}
+
+.france-child-italy-1{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(4, 4, 103);
+}
+
+.france-child-italy-2{
+    width: 83.33px;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.france-child-italy-3{
+    width: 83.33px;
+    height: 150px;
+    background-color: red;
+}
+
+.france-parent-italy:hover{
+    width: 250px;
+    height: 150px;
+    /* background-color: darkgray; */
+    margin: 5px;
+    /* flex: 33%; */
+    display: flex;
+    cursor: pointer;
+}
+
+.france-parent-italy:hover .france-child-italy-1{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(49, 164, 41);
+}
+
+.france-parent-italy:hover .france-child-italy-2{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.france-parent-italy:hover .france-child-italy-3{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(208, 40, 40) ;
+}
+
+.france-parent-italy:hover .france-child-italy-3{
+    width: 83.33px;
+    height: 150px;
+    background-color: rgb(208, 40, 40) ;
+}
+

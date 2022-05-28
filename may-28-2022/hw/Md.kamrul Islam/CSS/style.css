@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.head {
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 0 0 10px #000000;
+}
+
+
+.gg {
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px #000000;
+}
+
+.g1 {
+    width: 300px;
+    height: 70px;
+    margin: 40px auto 0;
+    background: #000000;
+}
+
+.g2 {
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    background: #D60000;
+}
+
+.g3 {
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    background: #F7C800;
+}
+
+.g {
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 0 0 10px #000000;
+}
+
+.aa {
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px #000000;
+}
+
+.a1 {
+    width: 300px;
+    height: 70px;
+    margin: 10px auto 0;
+    background: #70A7D8;
+}
+
+.a2 {
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    background: #ffffff;
+    display: flex;
+}
+
+.a21 {
+    width: 50px;
+    height: 45px;
+    margin: auto;
+    border-radius: 50%;
+    background: #EDAE0E;
+}
+
+.a3 {
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    background: #70A7D8;
+}
+
+.a {
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 0 0 10px #000000;
+}
+
+.bb {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0 0 10px #000000;
+    background: #000000;
+}
+
+.b1 {
+    width: 100px;
+    height: 200px;
+    margin: 10px auto 0;
+    background: #F5D324;
+    
+}
+
+.b2 {
+    width: 100px;
+    height: 200px;
+    margin: -200px auto auto 200px;
+    background: #D60000;
+}
+
+.b {
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 0 0 10px #000000;
+}
+
+.head1 {
+    text-align: center;
+    margin: 5px auto 30px auto;
+    text-shadow: 0 0 10px #000000;
+}
+
+
+.ff {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0 0 10px #000000;
+    background: #002290;
+}
+
+.f1 {
+    width: 100px;
+    height: 200px;
+    margin: 10px auto 0;
+    background: #ffffff;
+    
+}
+
+.f2 {
+    width: 100px;
+    height: 200px;
+    margin: -200px auto auto 200px;
+    background: #D60000;
+}
+
+.ff:hover {
+    background: #008D44;
+}
+
+.i1 {
+    width: 100px;
+    height: 30px;
+    margin: 15px auto 5px;
+    color: #000000;
+    text-align: center;
+    text-shadow: 0 0 10px #000000;
+}
+
+
+.i2 {
+    
+    margin: 10px auto;
+    color: #000000;
+    text-align: center;
+    text-shadow: 0 0 10px #000000;
+    border: solid 2px;
+}

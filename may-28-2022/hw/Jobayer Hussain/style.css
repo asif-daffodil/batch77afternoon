@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333333;
+}
+
+.container-1{
+    display: flex;
+    margin: 100px;
+}
+
+.container-2{
+    display: flex;
+    margin: 50px
+}
+
+.container-3{
+    margin: 100px;
+    display: flex;
+}
+
+.germany{
+    margin: auto 20px;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to bottom, #000000 33%, #DE0000 33% 66%, #FFCF00 33%);
+}
+
+.argentina{
+    margin: auto 20px;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to bottom,  #6BACE4  33%, #FFFFFF 33% 66%,  #6BACE4 33%);
+
+}
+
+.italy{
+    margin: auto 20px;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to left,  #009344  33%, #FFFFFF 33% 66%,  #CF2734 33%);
+
+}
+
+.france{
+
+    margin: auto;
+    width: 430px;
+    height: 230px;
+    background: linear-gradient(to left,  #002153  33%, #FFFFFF 33% 66%,  #CF2734 33%);
+
+}
+
+.belgium{
+
+    margin: auto;
+    width: 430px;
+    height: 230px;
+    background: linear-gradient(to left,  #000000  33%, #FDDB20 33% 66%,  #EF303E 33%);
+
+}
+
+.france-italy{
+    margin: auto;
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(to left,  #002153  33%, #FFFFFF 33% 66%,  #CF2734 33%);
+    position: relative;
+}
+
+.france-italy::after{
+    content: '';
+    margin: auto;
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(to left,  33%,  33% 66%,  #009344 33%);
+    position: absolute;
+}
+
+.france-italy:hover::after{
+
+    background: linear-gradient(to right, #CF2734 33%, #FFFFFF 33% 66%,  #009344 33%);
+
+}
+
+.country{    
+    width: 450px;
+    height: 100px;
+    background-color: #002153;
+    margin: 100px auto;
+    border: 2px solid red;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color:#6BACE4;
+}
+
+.country::before{
+    content: attr(a-content);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.country:hover::before{
+    content: attr(b-content);
+    background-color: #CF2734;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+
+}
+
+
+
+
+
+   

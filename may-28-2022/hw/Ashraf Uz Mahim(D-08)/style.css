@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe39d !important;
+  width: 100%;
+  height: 100%;
+  background: url(./img/messi2.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 250px;
+}
+
+/* this is germany flag */
+
+.germany_Maindiv {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: justify;
+  box-shadow: 0px 0px 40px 4px black, 0px 0px 100px 2px #966b00 inset;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 150px;
+}
+
+.germany {
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  margin-top: 20px !important;
+  box-shadow: 11px 13px 29px -6px black;
+  margin: auto;
+}
+.germany_color {
+  width: 300px;
+  height: 50px;
+  background-color: black;
+}
+.germany_colorbalck {
+  width: 300px;
+  height: 50px;
+  background-color: #d60000;
+}
+.germany_coloryellow {
+  width: 300px;
+  height: 50px;
+  background-color: #f7c800;
+}
+.text_div {
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+/* this is argentina flag */
+
+.argentina_maindiv {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: justify;
+  box-shadow: 0px 0px 40px 4px black, 0px 0px 100px 2px #966b00 inset;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 150px;
+}
+
+.argentina {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 11px 13px 29px -6px black;
+  margin-top: 80px;
+}
+.argentina_colorsky {
+  width: 300px;
+  height: 50px;
+  background-color: #63c5f7;
+}
+.argentina_whitecolor {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  background-image: url(./img/Background.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.argentina_colorskytwo {
+  width: 300px;
+  height: 50px;
+  background-color: #63c5f7;
+}
+.text_diviargentina {
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 22px;
+}
+
+/* this is italy flag */
+
+.italy_maindiv {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: justify;
+  box-shadow: 0px 0px 40px 4px black, 0px 0px 100px 2px #966b00 inset;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 150px;
+}
+
+.italy {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  box-shadow: 11px 13px 29px -6px black;
+  background-color: black;
+}
+.italy_colorgreen {
+  width: 100px;
+  height: 150px;
+  background-color: #008d44;
+}
+.italy_colorwhite {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+}
+.italy_colorred {
+  width: 100px;
+  height: 150px;
+  background-color: #c82a35;
+}
+.italy_textdiv {
+  text-align: center;
+  color: tomato;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+/* this is bangladesh flag design */
+
+.banladesh_maindiv {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: justify;
+  box-shadow: 0px 0px 40px 4px black, 0px 0px 100px 2px #966b00 inset;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 150px;
+}
+
+.bangladesh {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 11px 13px 29px -6px black, 0px 0px 29px -7px black inset;
+  background-color: green;
+}
+.cercle {
+  width: 100px;
+  height: 100px;
+  background-image: url(./img/mapbd.png);
+  background-size: 70px;
+  background-position: center;
+  background-color: red;
+  background-repeat: no-repeat;
+
+  border-radius: 50%;
+
+  margin: auto;
+}
+.text_bangladesh {
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 22px;
+}
+
+/* this is france flag */
+
+.france_maindiv {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: justify;
+  box-shadow: 0px 0px 40px 4px black, 0px 0px 100px 2px #966b00 inset;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 150px;
+}
+
+.france {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  box-shadow: 11px 13px 29px -6px black;
+  background-color: black;
+}
+.france_color {
+  width: 100px;
+  height: 150px;
+  background-color: #002379;
+}
+.france_colorwhite {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+}
+.france_colorred {
+  width: 100px;
+  height: 150px;
+  background-color: #ec142e;
+}
+.france_textDiv {
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* this is belgium flag */
+
+.blegium_maindiv {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: justify;
+  box-shadow: 0px 0px 40px 4px black, 0px 0px 100px 2px #966b00 inset;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 150px;
+}
+
+.blegium {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  box-shadow: 11px 13px 29px -6px black;
+  background-color: black;
+}
+.belgium_colorblack {
+  width: 100px;
+  height: 150px;
+  background-color: black;
+}
+.belgium_yellow {
+  width: 100px;
+  height: 150px;
+  background-color: #f5d324;
+}
+.belgium_red {
+  width: 100px;
+  height: 150px;
+  background-color: #e8313e;
+}
+.belgium_textDiv {
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* this is again france flag
+
+.france_again {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-top: 80px;
+  background-color: white;
+  display: flex;
+  box-shadow: 11px 13px 29px -6px black;
+}
+.france_colorblueagain {
+  width: 100px;
+  height: 150px;
+  background-color: #002379;
+}
+.france_colorwhiteagain {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+}
+.france_colorredagain {
+  width: 100px;
+  height: 150px;
+  background-color: #ec142e;
+}
+.divtext {
+  text-align: center;
+  color: tomato;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.france_again:hover {
+}
+
+.france_colorblueagain:hover {
+  width: 100px;
+  height: 150px;
+  background-color: #008d44;
+  display: flex;
+}
+
+.france_colorwhiteagain:hover {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+}
+
+.france_colorredagain:hover {
+  width: 100px;
+  height: 150px;
+  background-color: #c82a35;
+} */
+
+.artical {
+  margin-top: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  color: #000000a6;
+}
+.extra_artical {
+  margin-top: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  color: #000000a6;
+}
+.extra_articaltwo {
+  margin-top: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  color: #000000a6;
+}
+.extra_articalthree {
+  margin-top: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  color: #000000a6;
+}
+
+/* hover again */
+
+.main_hoveragain {
+  width: 500px;
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+  box-shadow: 15px 15px 25px -6px black, 0px 0px 47px 31px #cfac56 inset;
+}
+.this_ishovertext {
+  padding-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: arial;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 4px white;
+  color: #ad4848;
+}
+
+.start {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 11px 13px 29px -6px black;
+}
+.ashraf::before {
+  content: "";
+  width: 100px;
+  height: 150px;
+  background-position: center;
+  background-color: #002379;
+  position: absolute;
+  transition: 0.5s;
+}
+.ashraf::after {
+  content: "";
+  width: 100px;
+  height: 150px;
+  background-color: #ec142e;
+  position: absolute;
+  background-position: center;
+  margin-left: 200px;
+  transition: 0.5s;
+}
+.hover {
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.hover::before {
+  content: "France";
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.hover:hover::before {
+  content: "Italy";
+  text-align: center;
+  color: tomato;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.ashraf:hover::before {
+  content: "";
+  width: 100px;
+  height: 150px;
+  background-position: center;
+  background-color: #008d44;
+  position: absolute;
+}
+
+.ashraf:hover::after {
+  content: "";
+  width: 100px;
+  height: 150px;
+  background-position: center;
+  background-color: #c82a35;
+  position: absolute;
+}
+
+/* this is clip-path css desing */
+
+.chip_pathdiv {
+  width: 800px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding: 30px;
+  display: flex;
+  box-shadow: 15px 15px 25px -2px black, 0px 0px 100px 2px #966b00 inset;
+}
+.image_clippath {
+  width: 300px;
+  height: 300px;
+  clip-path: ellipse(33% 50% at 50% 50%);
+  background-image: url(./img/AshrafUzMahim.jpg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center;
+}
+.my_details {
+  float: left;
+  width: 600px;
+  margin: auto;
+}
+.ashrafuzMahim {
+  margin-bottom: 37px;
+  color: #871010;
+  font-size: 39px;
+}
+.dhaka {
+  font-size: 23px;
+  font-family: monospace;
+  color: #666666;
+}

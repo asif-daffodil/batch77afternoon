@@ -1,0 +1,78 @@
+@font-face {
+  font-family: heroAlom;
+  src: url("../fonts/Blaka/Blaka-Regular.ttf");
+}
+
+@font-face {
+  font-family: poriMoni;
+  src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: stretch; */
+  /* flex-wrap: wrap; */
+  align-items: stretch;
+}
+
+.parent > div:first-child {
+  flex-grow: 1;
+  background: DodgerBlue;
+  margin-left: 0;
+  min-width: 150px;
+}
+
+.parent > div:last-child {
+  margin-right: 0;
+  flex-grow: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent > div:first-child > div > ul {
+  list-style: none;
+  padding: 20px;
+}
+
+ul li {
+  display: block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 36px;
+  padding-left: 10px;
+  display: block;
+  font-family: poriMoni;
+}
+
+ul li:hover {
+  background: cornflowerblue;
+}
+
+.parent > div:last-child > div > img {
+  width: 600px;
+}
+.parent > div:last-child > div {
+  margin-left: 10px;
+}
+.parent > div:last-child > div > p {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: heroAlom;
+}
+.parent > div:last-child > div > button {
+  padding: 8px 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flag11 {
+   width: 300px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+   padding: 0; 
+  
+
+
+}
+
+.black{
+   height: 70px;
+   border-bottom: 1px solid black;
+   background-color: black;
+
+}
+
+.red {
+   background-color: red;
+   height: 70px;
+   border-bottom: 1px solid black;
+
+}
+ .yellow{
+    background-color: yellow;
+    height: 70px;
+    border-bottom: 1px solid black;
+ }
+ 
+ .flag1 {
+   margin-right: 320px;
+   border: 1px solid black;
+   width: 300px;
+   height: 210px;
+   position: absolute;
+   }
+
+   .lightblue {
+      height: 70px;
+      border-bottom: 1px solid black;
+      background-color: lightblue;
+   }
+
+   
+   .img {
+      width: 22;
+      position: absolute;
+      top: 308px;
+      left: 610px;
+      display: block;
+      margin:auto;
+      vertical-align: middle;
+      display: block;
+     
+   }
+
+
+   .lightblue2 {
+         background-color: lightblue;
+         height: 60px;
+         border-bottom: 1px solid black;
+      }
+     
+
+      .flag {
+         width: 300px;
+         border-width: 2px;
+         border-style: solid;
+         border-color: black;
+         padding: 0;
+         margin: 0;
+         
+      
+       }
+       
+       .italy-flag {
+         width: 300px;
+         height: 12px;
+         padding-bottom: 66.667%;
+         background-color: #F1F2F1;
+         position: relative;
+         margin: 0;
+       }
+       
+       .italy-flag::before {
+         content: ' ';
+         position: absolute;
+         background-color: #009246;
+         width: 33.33%;
+         height: 100%;
+       }
+       
+       .italy-flag::after {
+         content: ' ';
+         position: absolute;
+         background-color:  	#CE2B37;
+         width: 33.33%;
+         height: 100%;
+         right: 0;
+       }
+        
+
+       .flag4 {
+         width: 300px;
+         border-width: 2px;
+         border-style: solid;
+         border-color: black;
+         padding: 0; 
+   
+         
+      
+       }
+       
+       .France-Flag {
+         width: 300px;
+         height: 12px;
+         padding-bottom: 66.667%;
+         background-color: #F1F2F1;
+         position: relative;
+         margin: 0;
+         
+       }
+       
+       .France-Flag::before {
+         content: ' ';
+         position: absolute;
+         background-color: #0245a8;
+         width: 33.33%;
+         height: 100%;
+       }
+       
+       .France-Flag::after {
+         content: ' ';
+         position: absolute;
+         background-color:  	#CE2B37;
+         width: 33.33%;
+         height: 100%;
+         right: 0;
+       }
+       
+       .France-Flag: :hover::before{
+        width: 33.33%;
+        height: 100%;
+        content: ' ';
+        position: absolute;
+        background-color: #0245a8;
+      }
+
+       .flag3 {
+         width: 300px;
+         border-width: 2px;
+         border-style: solid;
+         border-color: black;
+         padding: 0; 
+   
+         
+      
+       }
+       
+       .Blegium-Flag {
+         width: 300px;
+         height: 12px;
+         padding-bottom: 66.667%;
+         background-color: #e5e921;
+         position: relative;
+         margin: 0;
+       }
+       
+       .Blegium-Flag::before {
+         content: ' ';
+         position: absolute;
+         background-color: #080101;
+         width: 33.33%;
+         height: 100%;
+       }
+       
+       .Blegium-Flag::after {
+         content: ' ';
+         position: absolute;
+         background-color:  	#CE2B37;
+         width: 33.33%;
+         height: 100%;
+         right: 0;
+       }
+
+
+
+
+      
+       

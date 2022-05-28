@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: #ccc;
+  display: flex;
+}
+
+.flag {
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.d1 {
+  background: #000000;
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  top: 0;
+  left: 0;
+}
+
+.d2 {
+  background: #f5d324;
+  position: absolute;
+  height: 100%;
+  width: 34%;
+  top: 0;
+  left: 33%;
+}
+
+.d3 {
+  background: #e8313e;
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  top: 0;
+  right: 0;
+}
+
+.flag::before {
+  content: "Belgium";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  font-family: Arial;
+  text-shadow: 1px 1px 1px #fff;
+  color: #030303;
+}
+
+.flag:hover .d1 {
+  background: #009a49;
+}
+
+.flag:hover .d2 {
+  background: #fff;
+}
+
+.flag:hover .d3 {
+  background: #ff7901;
+}
+
+.flag:hover::before {
+  content: "ireland ";
+}
+
+.bg {
+  height: 120px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(255, 255, 255, 0.7),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/bg.jpeg") no-repeat center / cover fixed;
+  position: relative;
+}
+
+.bg::before {
+  content: "Bangladesh";
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 32px;
+  font-family: Arial;
+  text-shadow: 1px 1px 1px #fff;
+  color: #030303;
+  line-height: 120px;
+  position: absolute;
+}
