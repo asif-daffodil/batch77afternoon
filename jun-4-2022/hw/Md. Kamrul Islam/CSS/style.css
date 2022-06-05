@@ -1,0 +1,119 @@
+@font-face {
+    font-family: font1;
+    src: url("../CSS/fonts/Lobster/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: font2;
+    src: url("../CSS/fonts/Righteous/Righteous-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFA079;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;   
+    display: flex;
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: auto auto auto 200px ;
+}
+
+.f1 {
+    background: #F7F7F7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.f2 {
+    background: #C81023;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 43%;
+    bottom: 40%;
+}
+
+
+.f3 {
+    background: #C81023;
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    left: 43%;
+    right: 40%;
+}
+
+.flag::before {
+    content: "Endland";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: font1;
+    text-shadow: 1px 1px 2px #5DB9ED;
+    color: #000;
+}
+
+.flag:hover .f1 {
+    background: #0067A2;
+}
+
+
+.flag:hover .f2 {
+    background: #F6C600;
+}
+
+
+.flag:hover .f3 {
+    background: #F6C600;
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    left: 30%;
+    right: 40px;
+}
+
+.flag:hover::before {
+    content: "sweden";
+    font-family: font2;
+}
+
+
+.p {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+.p::before {
+    content: "Sweden is a Scandinavian nation with thousands of coastal islands and inland lakes, along with vast boreal forests and glaciated mountains. Its principal cities, eastern capital Stockholm and southwestern Gothenburg and Malmö, are all coastal. Stockholm is built on 14 islands. It has more than 50 bridges, as well as the medieval old town, Gamla Stan, royal palaces and museums such as open-air Skansen.";
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: font1;
+    text-shadow: 1px 1px 2px #000;
+    color: #000;
+}
+
+.p:hover::before {
+    content: "England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south.";
+    font-family: font2;
+}

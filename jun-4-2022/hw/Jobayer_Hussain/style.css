@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333333;
+}
+
+.container-1{
+    display: flex;
+    margin: 100px;
+}
+
+.container-2{
+    display: flex;
+    margin: 50px;
+}
+
+.england{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.line-1{
+    height: 55px;
+    width: 500px;
+    background: red;
+    position: absolute;
+}
+
+.line-2{
+    height: 300px;
+    width: 55px;
+    background: red;
+    position: absolute;
+}
+
+.sweden{
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    background: #0B4F90;
+    display: flex;
+}
+
+.line1{
+    margin-top: 130px;
+    height: 55px;
+    width: 500px;
+    background: #FFD83B;
+    position: absolute;
+}
+
+.line2{
+    margin-left: 140px;
+    height: 300px;
+    width: 55px;
+    background: #FFD83B;
+    position: absolute;
+}
+
+.paragraph{
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    font-family: 'Caveat', cursive;
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.paragraph::after{
+    content: attr(a-content);
+    position: absolute;
+    color: #ffffff;
+    padding: 30px;
+   
+}
+
+.paragraph:hover{
+    background: red;
+    box-shadow: 10px 10px 15px yellow;
+    cursor: pointer;
+}
+
+.paragraph:hover::after{
+
+content: attr(b-content);
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color: #000000;
+
+}
+
+
+
+
+   

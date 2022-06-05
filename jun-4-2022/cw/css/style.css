@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url("../images/cursor.png"), auto;
+}
+body {
+  padding: 0 100px;
+}
+
+.gridFirstpart {
+  width: 100%;
+  height: 50vh;
+  background: dodgerblue;
+  display: grid;
+  grid-gap: 6px;
+  padding: 6px;
+  grid-template-columns: 2fr repeat(2, 1fr);
+}
+
+.gridFirstpart > div {
+  background: limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-style: italic;
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: auto;
+  font-family: arial; */
+  font: italic small-caps bolder 32px auto arial;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+.gridFirstpart > div:hover {
+  background: orangered;
+}
+
+.gridSecond {
+  width: 100%;
+  height: 50vh;
+  background: cornflowerblue;
+  padding: 6px;
+  display: grid;
+  grid-template-areas: "place1 place1 place2" "place3 place4 place2" "place3 place5 place5" "place6 place6 place6";
+  grid-gap: 6px;
+}
+
+.gridSecond > div {
+  background: limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: italic small-caps bolder 32px auto arial;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+.gridSecond > div:hover {
+  background: hotpink;
+}
+
+.child1 {
+  grid-area: place1;
+}
+.child2 {
+  grid-area: place2;
+}
+.child3 {
+  grid-area: place3;
+}
+.child4 {
+  grid-area: place4;
+}
+.child5 {
+  grid-area: place5;
+}
+.child6 {
+  grid-area: place6;
+}

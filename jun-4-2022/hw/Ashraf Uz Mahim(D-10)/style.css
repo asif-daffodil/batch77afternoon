@@ -1,0 +1,394 @@
+@font-face {
+  font-family: heroAlam;
+  src: url(./Google-Fonts/Kanit-Medium.ttf);
+}
+@font-face {
+  font-family: poriMoni;
+  src: url(./Google-Fonts/Lobster-Regular.ttf);
+}
+@font-face {
+  font-family: ashrafUzmahim;
+  src: url(./Google-Fonts/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+  font-family: asifAbirSir;
+  src: url(./Google-Fonts/Vollkorn-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: arebetaKoisna;
+  src: url(./Google-Fonts/TaiHeritagePro-Regular.ttf);
+}
+
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+.main {
+  width: 1200px;
+  position: relative;
+  margin-top: 100px;
+}
+
+/* this is enland flag */
+
+.england_div {
+  padding: 30px;
+  width: 500px;
+  height: 847px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 40px 3px #bd8989, 0px 0px 150px -21px #e30000ad inset;
+}
+
+.england {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  background-color: #c20f2d;
+  transition: 0.5s;
+}
+.england:hover {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  border: 1px solid #a9ac00;
+}
+.d1 {
+  background-color: #f7f7f7;
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.england:hover .d1 {
+  background-color: #ffff00;
+  position: absolute;
+  width: 150px;
+  height: 75px;
+  top: 0;
+  left: 0;
+}
+
+.d2 {
+  background-color: #f7f7f7;
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+}
+.england:hover .d2 {
+  background-color: black;
+  position: absolute;
+  width: 150px;
+  height: 75px;
+  top: 0;
+  right: 0;
+}
+.d3 {
+  background-color: #f7f7f7;
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.england:hover .d3 {
+  background-color: black;
+  position: absolute;
+  width: 150px;
+  height: 75px;
+  bottom: 0;
+  left: 0;
+}
+.d4 {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  bottom: 0;
+  right: 0;
+  background-color: #f7f7f7;
+  transition: 0.5s;
+}
+.england:hover .d4 {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  right: 0;
+  background-color: #ffff00;
+}
+.england::before {
+  content: "England";
+  position: absolute;
+  left: 85px;
+  bottom: -72px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 29px;
+  border: 1px solid red;
+  padding: 3px 10px 5px 10px;
+  box-shadow: 0px 0px 15px 2px #979797;
+  transition: 0.5s;
+}
+.england:hover::before {
+  content: "Lima";
+  position: absolute;
+  left: 105px;
+  bottom: -76px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 29px;
+  border: 1px solid #ffff00;
+  padding: 3px 10px 5px 10px;
+  box-shadow: 0px 0px 15px 2px #979797;
+}
+.england::after {
+  content: "The Kingdom of England – which after 1535 included Wales – ceased being a separate sovereign state on 1 May 1707, when the Acts of Union put into effect the terms agreed in the Treaty of Union the previous year, resulting in a political union with the Kingdom of Scotland to create the Kingdom of Great Britain.[13][14] In 1801, Great Britain was united with the Kingdom of Ireland (through another Act of Union) to become the United Kingdom of Great Britain and Ireland. In 1922 the Irish Free State seceded from the United Kingdom, leading to the latter being renamed the United Kingdom of Great Britain and Northern Ireland.[15]England's terrain is chiefly low hills and plains, especially in central and southern England. However, there is upland and mountainous terrain in the north (for example, the Lake District and Pennines) and in the west (for example, Dartmoor and the Shropshire Hills).";
+  color: #f8f9ffa6;
+  position: absolute;
+  bottom: -626px;
+  left: 8px;
+  font-family: heroAlam;
+  text-align: justify;
+  line-height: 22px;
+  transition: 0.5s;
+}
+.england:hover::after {
+  content: "Nowadays, the city is considered to be the political, cultural, financial and commercial center of the country. Internationally, it is one of the thirty most populated urban agglomerations in the world. Due to its geostrategic importance, the Globalization and World Cities Research Network has categorized it as a tier city.Jurisdictionally, the metropolis extends mainly within the province of Lima and in a smaller portion, to the west, within the Constitutional Province of Callao, where the seaport and the Jorge Chávez Airport are located. Both provinces have regional autonomy since 2002.In  2013, Lima was chosen to host the 2019 Pan American Games; these games were held at venues in and around Lima, and were the largest sporting event ever hosted by the country. It  hosted the APEC Meetings of 2008 and 2016,  It also hosted the APEC Meetings of 2008.In October 2013, Lima was chosen to host the 2019 Pan American Games; these games were held at venues in and around Lima, and were the largest sporting event ever hosted by the country.";
+  color: #f9ffd3;
+  position: absolute;
+  bottom: -636px;
+  left: 8px;
+  font-family: asifAbirSir;
+  text-align: justify;
+  line-height: 22px;
+}
+
+/* this is sweden flag */
+
+.sweden_div {
+  padding: 30px;
+  width: 500px;
+  height: 847px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0px 0px 40px 3px #7777b1, 0px 0px 150px 8px darkblue inset;
+}
+
+.sweden {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  background-color: #f7d600;
+  transition: 0.5s;
+}
+.sweden:hover {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  background-color: #015296;
+}
+
+.sd1 {
+  width: 90px;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0062ad;
+  transition: 0.5s;
+}
+.sweden:hover .sd1 {
+  width: 90px;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.sd2 {
+  width: 90px;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #0062ad;
+  transition: 0.5s;
+}
+.sweden:hover .sd2 {
+  width: 90px;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.sd3 {
+  width: 180px;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #0062ad;
+  transition: 0.5s;
+}
+.sweden:hover .sd3 {
+  width: 180x;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+
+.sd4 {
+  width: 180px;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #0062ad;
+  transition: 0.5s;
+}
+.sweden:hover .sd4 {
+  width: 180px;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
+.sweden::before {
+  content: "Sweden";
+  position: absolute;
+  left: 88px;
+  bottom: -72px;
+  color: #d0eaff;
+  font-weight: bold;
+  font-size: 29px;
+  border: 1px solid #f7d600;
+  padding: 3px 10px 5px 10px;
+  box-shadow: 0px 0px 15px 2px #979797;
+  transition: 0.5s;
+}
+.sweden:hover::before {
+  content: "Finland ";
+  position: absolute;
+  left: 88px;
+  bottom: -72px;
+  color: #d0eaff;
+  font-weight: bold;
+  font-size: 29px;
+  border: 1px solid #0016ff;
+  padding: 3px 10px 5px 10px;
+  box-shadow: 0px 0px 15px 2px #979797;
+}
+
+.sweden::after {
+  content: "Germanic peoples have inhabited Sweden since prehistoric times, emerging into history as the Geats (Swedish: Götar) and Swedes (Svear) and constituting the sea peoples known as the Norsemen. An independent Swedish state emerged during the early 12th century. After the Black Death in the middle of the 14th century killed about a third of the Scandinavian population,[20][21] the dominance of the Hanseatic League in Northern Europe threatened Scandinavia economically and politically. This led to the forming of the Scandinavian Kalmar Union in 1397,[22] which Sweden left in 1523. When Sweden became involved in the Thirty Years' War on the Protestant side, an expansion of its territories began and eventually the Swedish Empire was formed. This became one of the great powers of Europe until the early 18th century. Swedish territories outside the Scandinavian Peninsula were gradually lost during the 18th and 19th centuries, ending with the annexation of present-day Finland by Russia in 1809. The last war in which Sweden was directly involved was in 1814 when Norway was militarily forced into a personal union, which peacefully dissolved in 1905. ";
+  color: #d0d7fde1;
+  position: absolute;
+  bottom: -638px;
+  left: 10px;
+  text-align: justify;
+  font-family: poriMoni;
+  transition: 0.5s;
+}
+.sweden:hover::after {
+  content: "Finland largely remained an agrarian country until the 1950s. After World War II, it rapidly industrialized and developed an advanced economy, while building an extensive welfare state based on the Nordic model; the country soon enjoyed widespread prosperity and a high per capita income.[18] Finland joined the United Nations in 1955 and adopted an official policy of neutrality; it joined the OECD in 1969, the NATO Partnership for Peace in 1994,[19] the European Union in 1995, the Euro-Atlantic Partnership Council in 1997,[19] and the Eurozone at its inception in 1999. Finland is a top performer in numerous metrics of national performance, including education, economic competitiveness, civil liberties, quality of life and human development.[20][21][22][23] In 2015, Finland ranked first in the World Human Capital,[24] topped the Press Freedom Index, and was most stable country in the world during 2011–2016, according to the Fragile States Index;[25] it is second in the Global Gender Gap Report,[26] and has ranked first in every annual World Happiness Report since 2018.[27][28][29]Finland largely remained an agrarian country until the 1950s. ";
+  color: #ffffffad;
+  position: absolute;
+  bottom: -646px;
+  left: 10px;
+  text-align: justify;
+  font-family: ashrafUzmahim;
+  line-height: 22px;
+}
+
+/* natural bg photo */
+
+.bg {
+  height: 300px;
+  background-image: linear-gradient(black, #00000091, #00000091, black),
+    url(./img/natural_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 0px 0px 51px 0px #686868;
+}
+.bgSecound {
+  height: 200px;
+}
+/* this is breaking news div */
+
+.main_divnews {
+  margin-top: 100px !important;
+  width: 1200px;
+  position: relative;
+  margin: auto;
+  /* border: 1px solid white; */
+  color: white;
+}
+.marquee_breaking {
+  display: flex;
+  border: 1px solid #383838;
+  box-shadow: 0px 0px 50px -10px #007eff inset;
+}
+.span_bdiv {
+  width: 360px;
+  background-color: #560000;
+  font-size: 25px;
+  text-align: center;
+  height: max-content;
+  margin: auto;
+  font-weight: bold;
+  color: gold;
+  padding: 4px;
+}
+.marquee_div {
+  font-size: 25px;
+  color: #ffc8c8;
+  font-weight: bold;
+  font-family: arial;
+}
+
+/* image  */
+
+.img {
+  margin-top: 80px;
+  display: flex;
+  padding: 15px 30px 15px 60px;
+  box-shadow: 0px 0px 119px -43px #ff0000e8 inset;
+}
+
+.img_cspider {
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boldT {
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #bb4343d9;
+}
+.text_likhsi {
+  text-align: justify;
+  font-family: arebetaKoisna;
+  line-height: 24px;
+  color: #1282c5;
+}

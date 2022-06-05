@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Bree+Serif&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .parent{
+
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+ }
+
+.parent > div {
+
+
+    margin: 0 10pex ;
+
+
+}
+
+
+.parent > div:first-child
+ {
+
+    flex-grow: 1;
+    background: lightblue;
+    margin-left: 0;
+    min-width: 200px;
+}
+
+.parent > div:last-child {
+
+    margin-right: 0;
+    flex-grow: 5;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+     
+}
+
+.parent > div:last-child > div > ul{
+    list-style: none;
+    padding:20px;
+    
+}
+
+ul li{
+
+    display: block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    line-height-step: 0;
+    line-height: 60px;
+    padding-left: 5px;
+    display: block;
+    font-family: 'Bree Serif', serif;
+}
+
+ul li:hover {
+    background:cornflowerblue;
+}
+
+img{
+    width: 300px;
+}
+
+p{
+
+    flex-grow: 1;
+    font-family: 'Blaka Hollow', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Bree+Serif&family=Signika&display=swap');
+.p:hover.p {
+   
+    flex-grow: 1;
+    font-family: 'Blaka Hollow', cursive;
+    
+
+}

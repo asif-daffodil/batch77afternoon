@@ -1,0 +1,122 @@
+@font-face {
+    font-family: khalid;
+    src: url(./Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: hossen;
+    src: url(./Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+h3{
+    width: 900px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(205, 211, 97);
+    color: rgb(21, 117, 201);
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.flag{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    /* align-items: center;
+    justify-content: center; */
+    display: flex;
+    position: relative; 
+    margin: auto;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.horizontal-stripe{
+    position: absolute;
+    background-color: red;
+    width: 300px;
+    height: 35px;
+    top: 40%;
+}
+
+.vertical-stripe{
+    background-color: red;
+    width: 35px;
+    height: 150px;
+    position: absolute;
+    left: 45%;
+}
+
+.flag::before{
+    content: "England";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px rgb(192, 20, 25);
+    color: black;
+}
+
+.flag:hover {
+    background-color: rgb(21, 75, 176);
+}
+
+.flag:hover > .horizontal-stripe{
+    background-color: yellow;
+}
+
+.flag:hover > .vertical-stripe{
+    background-color: yellow;
+    left: 30%;
+}
+
+.flag:hover::before{
+    content: "Sweden";
+}
+
+
+
+/* text */
+p{
+    width: 400px;
+    margin: auto;
+    cursor: pointer;
+    font-family: khalid;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+p:hover{
+    font-family: hossen;
+}
+
+
+/* footer */
+.foot{
+    margin-top: 100px;
+    width: 900px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(205, 211, 97);
+    color: rgb(21, 117, 201);
+    margin: auto;
+}
