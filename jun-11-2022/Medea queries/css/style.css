@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: max-content;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.main > div {
+  box-shadow: 0 0 10px #000;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: Arial;
+}
+
+@media only Screen and (min-width: 920px) {
+  .main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .main > div {
+    background: lightblue;
+  }
+}
+
+@media only Screen And (min-width: 620px) And (max-width: 920px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main > div {
+    background: lightgreen;
+  }
+}
+
+@media only Screen And (max-width: 620px) {
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main > div {
+    background: lightgoldenrodyellow;
+  }
+}
