@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("../images/cursor.png"), auto;
+}
+
+.grid1 {
+    width: 100%;
+    height: 100vh;
+    background: blue;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.grid1 > div {
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000 inset;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.grid1 > .ban:hover {
+    background: url(../images/bandaraban.jpeg);
+    background-position: center;
+}
+
+
+.grid1 > .syh:hover {
+    background: url(../images/sylhet1.jpg);
+    background-position: center;
+}
+
+
+.grid1 > .ran:hover {
+    background: url(../images/rangamati.jpg);
+    background-position: center;
+}
+
+
+.grid1 > .cox:hover {
+    background: url(../images/coxs\ bazar.png);
+    background-position: center;
+}
+
+
+
