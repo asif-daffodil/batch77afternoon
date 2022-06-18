@@ -1,0 +1,164 @@
+@font-face {
+    font-family: rye;
+    src: url(../fonts/Rye-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightskyblue;
+}
+
+h3 {
+    width: 120px;
+    height: 22px;
+    font-size: 18px;
+    border: 1px #000;
+    background: cornflowerblue;
+    color: #fff;
+    margin: -18px 0 3px 180px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 0 8px #000;
+}
+
+h1 {  
+    font: bold normal 45px auto arial;
+    text-shadow: 2px 0 2px #000;
+    margin-left: 13px;
+    margin-top: 7px;
+}
+
+p {
+    font: bold normal 20px auto arial;
+    text-shadow: 0 0 1px #000;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+h6 {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 64px;
+    text-shadow: 3px 5px 7px #000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: rye;
+    padding: auto;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 4px;
+    animation: animation 2s infinite linear;
+}
+
+.main {
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    padding: 55px;
+}
+
+.main > div {
+    box-shadow: 0 0 8px #000;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: lighter;
+    line-height: auto;
+    text-align: center;
+    animation: animation 2s infinite linear;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+    .main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .main {
+        grid-template-columns: repeat(4, 1fr);
+    }   
+}
+
+@keyframes animation {
+    0% {
+        background: lightcoral;
+    }
+    50% {
+        background: lightyellow;
+    }
+    100% {
+        background: lightcoral;
+    }
+}
+
+.main > div:hover {
+    transform: scale(0.9);
+}
+
+
+.container {
+      background-color: transparent;
+      width: 300px;
+      height: 230px;
+      perspective: 1000px;
+      margin: auto;
+}
+   .main1 {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 0 8px #000;
+      border-radius: 40px;
+   }
+   .container:hover .main1 {
+      transform: rotateY(180deg);
+   }
+   .front, .Back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      
+   }
+   .front {
+      color: black;
+      border: 1px #000;
+   }
+   .Back {
+      background: url(../images/IMG_20220323_153218_157.jpg) no-repeat center / cover;
+      transform: rotateY(180deg);
+      border-radius: 22px;
+   }

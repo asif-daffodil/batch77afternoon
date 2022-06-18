@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$myBg: dodgerblue;
+
+@mixin commonCode($w: 300px, $h: 300px) {
+  width: $w;
+  height: $h;
+  margin: 10px;
+  background: $myBg;
+}
+
+@mixin centerChield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alu {
+  @include commonCode(100px, 100px);
+}
+
+.khalu {
+  @include commonCode(200px, 100px);
+}
+
+.challu {
+  @extend .khalu;
+  background: orange;
+  width: 300px;
+}
+
+.abul {
+  @include commonCode();
+  @include centerChield();
+  > .babul {
+    @include commonCode(200px, 200px);
+    background: orange;
+    @include centerChield();
+    > .kabul {
+      @include commonCode(100px, 100px);
+      @include centerChield();
+      background: lime;
+      > .bulbul {
+        @include commonCode(50px, 50px);
+        background: #000;
+      }
+    }
+  }
+}

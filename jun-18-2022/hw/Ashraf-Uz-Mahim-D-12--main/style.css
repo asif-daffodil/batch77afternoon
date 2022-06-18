@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background-color: #7d7748;
+}
+.header {
+  width: 100%;
+  height: max-content;
+  background: linear-gradient(to right, #280000, #474700, #280000);
+  color: #ffffb5;
+  font-variant: small-caps;
+  padding: 5px 0px 5px 0px;
+  border-radius: 29px;
+  animation-name: ash;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 2;
+  animation-duration: 1s;
+  text-align: center;
+}
+
+@keyframes ash {
+  0% {
+    font-size: 17px;
+  }
+  50% {
+    font-size: 10px;
+    padding: 12px 0px 12px 0px;
+  }
+  100% {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .header {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 919px) {
+  .header {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 619px) {
+  .header {
+    font-size: 9px;
+  }
+}
+
+/* grid */
+
+.gridcontainer {
+  width: 500px;
+  margin-top: 50px !important;
+  margin: auto;
+
+  cursor: url(./image/olivegreen-cursor.png), auto;
+}
+
+@media only screen and (min-width: 1280px) {
+  .gridcontainer {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 1280px) {
+  .gridcontainer {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 619px) {
+  .gridcontainer {
+    width: 300px;
+  }
+}
+
+.gridcontainer div img {
+  width: 100%;
+}
+
+.gridcontainer p {
+  font-size: 14px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  padding: 15px 0px 15px 0px;
+  text-align: justify;
+}
+
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+}
+.card .child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transform: rotateY(0deg);
+}
+
+.card .child1.font {
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0px 0px 8px 3px black inset;
+  padding: 20px;
+  border-radius: 8px;
+}
+.card:hover .child1.font {
+  transform: rotateY(180deg);
+}
+.card .child1.back {
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0px 0px 8px 3px black inset;
+  padding: 20px;
+  border-radius: 8px;
+  transform: rotateY(180deg);
+}
+.card:hover .child1.back {
+  transform: rotateY(360deg);
+}
+
+.child2,
+.child3,
+.child4,
+.child5 {
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0px 0px 8px 3px black inset;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.child2:hover {
+  transform: scale(90%);
+}
+.child3:hover {
+  transform: scale(90%);
+}
+.child4:hover {
+  transform: scale(90%);
+}
+.child5:hover {
+  transform: scale(85%);
+}
+.gridcontainersecond {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 16px;
+  cursor: url(./image/olivegreen-cursor.png), auto;
+}
+
+.gridcontainersecond > div > img {
+  width: 100%;
+}
+
+.gridcontainersecond > div > p {
+  font-size: 16px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  padding: 15px 0px 15px 0px;
+  text-align: justify;
+  word-spacing: 1px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .gridcontainersecond {
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 1024px) {
+  .gridcontainersecond {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 619px) {
+  .gridcontainersecond {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* massegebox  */
+
+.msgbox {
+  margin-top: 50px !important;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: arial;
+  text-align: justify;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0px 0px 8px 3px black inset;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  margin: auto;
+  position: relative;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.msgbox > h2 {
+  font-style: italic;
+  font-variant: initial;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.msgbox > p {
+  padding: 12px 0;
+  color: #868686;
+}
+.msgbox > button {
+  padding: 8px 12px;
+  color: antiquewhite;
+  background: linear-gradient(
+    to right,
+    #000000,
+    #978600,
+    #474700,
+    #353500,
+    #353535
+  );
+  border-width: 0;
+}
+
+.msgbox > button:hover {
+  background: linear-gradient(to right, #353535, #978600, #353535);
+}
+.msgbox::before {
+  content: "Bangabandhu";
+  position: absolute;
+  font-size: 17px;
+  top: 0;
+  right: 10%;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #353535, #978600, #353535);
+  color: lightgoldenrodyellow;
+  transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 920px) {
+  .msgbox {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 919px) {
+  .msgbox {
+    width: 300px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 619px) {
+  .msgbox {
+    width: 200px;
+    font-size: 9px;
+  }
+}
+
+/* flip box */
+
+.ashraf {
+  width: 100%;
+
+  display: flex;
+  margin: 50px 0px !important;
+}
+.ashchild {
+  width: 300px;
+  height: 450px;
+
+  margin: auto !important;
+  position: relative;
+}
+
+@media only screen and (min-width: 920px) {
+  .ashchild {
+    width: 300px;
+    height: 450px;
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 919px) {
+  .ashchild {
+    width: 200px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 619px) {
+  .ashchild {
+    width: 150px;
+    height: 300px;
+  }
+}
+
+.ashchild::before {
+  content: "";
+  background-image: url(./image/WhatsApp\ Image\ 2022-06-03\ at\ 5.58.00\ PM.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-position: center;
+  transition: 0.5s;
+}
+.ashchild::after {
+  content: "";
+  background-image: url(./image/WhatsApp\ Image\ 2022-06-01\ at\ 10.10.42\ PM.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-position: center;
+  transition: 0.5s;
+  transform: rotateY(180deg);
+}
+.ashchild:hover::before {
+  transform: rotateY(180deg);
+}
+.ashchild:hover::after {
+  transform: rotateY(0deg);
+}
