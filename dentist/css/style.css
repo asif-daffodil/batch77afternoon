@@ -251,4 +251,80 @@ header > .banner > .banner-services > div:first-child, header > .banner > .banne
 .testimonial > div:last-child > div > div > div:last-child > h4 {
   font-size: 20px;
   color: #3a4256;
+}
+
+.contact {
+  background: url("../images/bg-blue 1.png") no-repeat center/cover;
+  padding: 65px 0;
+}
+.contact > h3 {
+  color: #19d3ae;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 114.68%;
+}
+.contact > h4 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  line-height: 114.68%;
+  margin-bottom: 40px;
+}
+.contact > form > input {
+  width: 450px;
+  height: 48px;
+  display: block;
+  margin: auto;
+  border-width: 0;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.contact > form > textarea {
+  width: 450px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  border-width: 0;
+  height: 136px;
+  margin-bottom: 20px;
+  resize: none;
+}
+.contact > form > button {
+  display: block;
+  margin: auto;
+}
+
+footer {
+  background: url("../images/footer-bg 1 1.png") no-repeat center/cover;
+  padding: 0 100px;
+}
+footer > div:first-child {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+footer > div:first-child > ul > li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+footer > div:first-child > ul > li > a {
+  text-decoration: none;
+  color: #3a4256;
+  display: block;
+  line-height: 114.68%;
+}
+footer > div:first-child > ul > li:first-child {
+  font-weight: 700;
+  font-size: 18px;
+}
+footer > div:first-child > ul > li:first-child > a {
+  color: #939393;
+}
+footer > div:last-child {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
