@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(/images/images.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    box-sizing: border-box; 
+}
+
+/* Manu Bar Start here */
+.manu_bar{
+    background-color: rgb(197, 123, 32);
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.manu_bar img{
+    width: 10%;
+    padding-left: 30px;
+}
+
+.manu_bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.manu_bar ul li{
+    width: 140px;
+    margin-left: 20px;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.manu_bar ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.manu_bar ul li:hover{
+    background-color: rgb(67, 55, 8);
+    border-radius: 5px;
+}
+
+.manu_bar .fa{
+    margin-left: 6px;
+}
+
+/* Corse menu */
+
+.course-menu{
+    display: none;
+}
+
+.manu_bar ul li:hover .course-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(121, 76, 22);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.manu_bar ul li:hover .course-menu ul{
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+
+.manu_bar ul li:hover .course-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    /* background: transparent; */
+    border-radius: 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.manu_bar ul li:hover .course-menu ul li:last-child{
+    border-bottom: none;
+}
+
+.software-menu{
+    display: none;
+}
+
+
+.manu_bar ul li:hover .course-menu ul li a:hover{
+
+}
+
+.fa fa-angle-double-right{
+    float: right;
+}
+
+.hover-me:hover .software-menu{
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 145px;
+    background-color:  rgb(121, 76, 22);
+}

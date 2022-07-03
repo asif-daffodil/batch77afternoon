@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald';
+}
+
+ 
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #070d1f;
+}
+
+.wrapper{
+    position: relative;
+    max-width: 1300px;
+    padding: 0 30px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    display: none;
+}
+
+.wrapper .logo{
+    margin-bottom: 15px;
+}
+
+.wrapper .logo a{
+    color: #fff;
+    font-size: 50px;
+}
+
+.wrapper .logo a :hover{
+    color: #3664f4;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.nav-links li a:hover{
+  background: #3664f4;
+}
+
+.mega-box{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-links li:hover .mega-box{
+    transition: all 0.5s;
+    top: 57px;
+    opacity: 1;
+    visibility: visible;
+}
+.content{
+    background: #070d1f;
+    border: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main{
+    width: 25%;
+    line-height: 45px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+}
+
+.main p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3664f4;
+}
+
+.mega-links{
+    margin-left: -42px;
+    border-left: 1px solid #fff;
+}
+
+.mega-links li{
+    padding: 0 20px;
+}
+
+.mega-links a{
+    padding: 0 20px;
+    color: #d9d9d9;
+    font-size: 17px;
+    display: inline-block;
+    width: 80%;
+}
