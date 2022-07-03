@@ -153,4 +153,102 @@ header > .banner > .banner-services > div:first-child, header > .banner > .banne
 }
 .our-serivces > .services > div > p {
   text-align: center;
+}
+
+.edc, .appointment {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 0 100px;
+}
+.edc > div:first-child, .appointment > div:first-child {
+  text-align: right;
+}
+.edc > div:first-child > img, .appointment > div:first-child > img {
+  width: 100%;
+}
+.edc > div:last-child, .appointment > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.edc > div:last-child > h2, .appointment > div:last-child > h2 {
+  font-size: 48px;
+  color: #3a4256;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 26px;
+}
+.edc > div:last-child > p, .appointment > div:last-child > p {
+  margin-bottom: 26px;
+}
+
+.appointment {
+  margin-top: 200px;
+  background: url("../images/bg-blue 1.png") no-repeat bottom left/100% auto;
+}
+.appointment > div:first-child > img {
+  display: block;
+  margin-top: -90px;
+  width: 100%;
+}
+.appointment > div:last-child > h3 {
+  font-size: 20px;
+  color: #19d3ae;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.appointment > div:last-child > h2 {
+  font-size: 36px;
+  color: #fff;
+}
+.appointment > div:last-child > p {
+  color: #fff;
+}
+
+.testimonial {
+  padding: 0 100px;
+  margin-bottom: 140px;
+}
+.testimonial > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial > div:first-child > div:first-child > h4 {
+  color: #19d3ae;
+  font-size: 20px;
+  font-weight: 700;
+}
+.testimonial > div:first-child > div:first-child > h2 {
+  font-size: 36px;
+  color: #3a4256;
+}
+.testimonial > div:last-child {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 55px;
+}
+.testimonial > div:last-child > div {
+  box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+}
+.testimonial > div:last-child > div > p {
+  margin-bottom: 32px;
+}
+.testimonial > div:last-child > div > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.testimonial > div:last-child > div > div > div:first-child {
+  margin-right: 14px;
+}
+.testimonial > div:last-child > div > div > div:last-child > h4 {
+  font-size: 20px;
+  color: #3a4256;
 }/*# sourceMappingURL=style.css.map */
