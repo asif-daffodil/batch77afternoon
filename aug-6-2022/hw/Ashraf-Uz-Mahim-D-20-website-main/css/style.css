@@ -1,0 +1,79 @@
+.navbar-brand {
+  color: #4a4a4a;
+}
+
+.cbutton {
+  background-color: #289bde;
+}
+
+.h5car {
+  font-size: 50px;
+}
+
+.pacarousel {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h5car {
+    font-size: 25px;
+  }
+  .pacarousel {
+    font-size: 10px;
+  }
+  .carousel-caption {
+    bottom: -0.75rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .carousel-caption {
+    display: none;
+  }
+  .psmall {
+    font-size: 12px;
+    padding-top: 4px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .mediasml > h3 {
+    font-size: 20px;
+  }
+  .mediasml > p {
+    font-size: 15px;
+  }
+  .mediasml > .text-primary {
+    font-size: 12px;
+  }
+}
+.contact_no {
+  display: flex;
+}
+.contact_no > li {
+  list-style: none;
+  background-color: #5e5e5e;
+  border-radius: 50%;
+  width: 40px;
+  margin: 0px 6px;
+}
+.contact_no > li > a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.starrate > ul {
+  display: flex;
+  justify-content: end;
+}
+.starrate > ul > li {
+  list-style: none;
+}
+.starrate > ul > li > a {
+  text-decoration: none;
+  color: #f59e0b;
+}
+
+.yoyomodal {
+  background-color: #91d7ff !important;
+}/*# sourceMappingURL=style.css.map */

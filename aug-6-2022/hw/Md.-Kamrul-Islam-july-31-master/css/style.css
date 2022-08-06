@@ -1,0 +1,28 @@
+h1 {
+  font-size: 65px;
+  line-height: 85px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.carousel-caption {
+  margin-bottom: 118px;
+  color: #000;
+}
+
+.body-head {
+  text-align: center;
+  margin-top: 70px;
+}
+.body-head > h2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+}/*# sourceMappingURL=style.css.map */
