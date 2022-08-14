@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Accrodion Bootstrap</title>
+      <link rel="icon" href="./Images/nodejs_logo.png" />
+      <link
+         rel="stylesheet"
+         href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+         />
+      <link rel="stylesheet" href="./css/style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+         />
+   </head>
+   <body>
+      <div class="container-fluid" style="background-color: rgb(255, 238, 215);">
+        <!-- This div use for F.A.Q part  -->
+         <div class="row">
+            <!-- -----title----- -->
+            <div class="col-12 my-3 my-md-4 fw-bold h1Tcolor">
+               <div class="col-12 col-lg-6 mx-auto text-center">
+                  <h1 class="h1fstyle">"Some introduction to JavaScript"</h1>
+               </div>
+            </div>
+            <div class="col-12 col-lg-6 mx-auto">
+               <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <!-- question no 1 -->
+                  <div class="accordion-item rounded  ">
+                     <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                           class="accordion-button collapsed fw-bold h1Tcolor rounded  "
+                           style="background-color: rgba(255, 209, 144, 0.829);border:none;"
+                           type="button"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#flush-collapseOne"
+                           aria-expanded="false"
+                           aria-controls="flush-collapseOne"
+                           >
+                        1. What is JavaScript?
+                        </button>
+                     </h2>
+                     <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                        >
+                        <div class="accordion-body">
+                           <li>
+                              <a
+                                 href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript"
+                                 target="_blank "
+                                 class="linkClassblue"
+                                 >JavaScript</a
+                                 >
+                              is a scripting language that enables you to create
+                              dynamically updating content, control multimedia, animate
+                              images, and pretty much everything else. (Okay, not
+                              everything, but it is amazing what you can achieve with a
+                              few lines of JavaScript code.)
+                              <br />
+                              <button
+                                 class="btn btn-light border  rounded btn-sm my-3 fw-bold"
+                                 type="button"
+                                 data-bs-toggle="collapse"
+                                 data-bs-target="#collapseExample"
+                                 aria-expanded="false"
+                                 aria-controls="collapseExample"
+                                 >
+                              See more <i class="fa-solid fa-angle-down ms-2"></i>
+                              </button>
+                           </li>
+                           <div class="collapse" id="collapseExample">
+                              <p>
+                                 JavaScript is a scripting or programming language that
+                                 allows you to implement complex features on web pages —
+                                 every time a web page does more than just sit there and
+                                 display static information for you to look at — displaying
+                                 timely content updates, interactive maps, animated 2D/3D
+                                 graphics, scrolling video jukeboxes, etc. — you can bet
+                                 that JavaScript is probably involved. It is the third
+                                 layer of the layer cake of standard web technologies, two
+                                 of which (HTML and CSS) we have covered in much more
+                                 detail in other parts of the Learning Area.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- question no 2 -->
+                  <div class="accordion-item rounded my-3 ">
+                     <h2 class="accordion-header" id="flush-headingTwo">
+                        <button
+                           class="accordion-button collapsed fw-bold h1Tcolor rounded "
+                           style="background-color: rgba(255, 209, 144, 0.829);border:none;"
+                           type="button"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#flush-collapseTwo"
+                           aria-expanded="false"
+                           aria-controls="flush-collapseTwo"
+                           >
+                        2. JS Variable Explained below.
+                        </button>
+                     </h2>
+                     <div
+                        id="flush-collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample"
+                        >
+                        <div class="accordion-body">
+                           <p class="fw-bold">
+                              4 Ways to Declare a JavaScript Variable :
+                           <ul>
+                              <li>Using <a href="#" class="linkClass">var</a></li>
+                              <li>Using <a href="#" class="linkClass">let</a></li>
+                              <li>Using <a href="#" class="linkClass">const</a></li>
+                              <li>Using nothing</li>
+                           </ul>
+                           </p>
+                           <h4>Example :</h4>
+                           <span>var personName = "Ashraf";</span><br />
+                           <span>let age = "20";</span><br />
+                           <span>const x = 50;</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- question no 3 -->
+                  <div class="accordion-item rounded ">
+                     <h2 class="accordion-header" id="flush-headingThree">
+                        <button
+                           class="accordion-button collapsed fw-bold h1Tcolor rounded "
+                           style="background-color: rgba(255, 209, 144, 0.829);border:none;"
+                           type="button"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#flush-collapseThree"
+                           aria-expanded="false"
+                           aria-controls="flush-collapseThree"
+                           >
+                        3. JS Data Types
+                        </button>
+                     </h2>
+                     <div
+                        id="flush-collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                        >
+                        <div class="accordion-body">
+                           <h1 class="mt-2 mb-4">JavaScript Types</h1>
+                           <p>The set of types in the JavaScript language consists of <a href="#" class="linkClassblue">primitive</a> values and <a href="#" class="linkClassblue">objects</a>.</p>
+                           <ul>
+                              <li>
+                                 <a href="#" class="linkClassblue">Primitive</a> values (immutable datum represented directly at the lowest level of the language
+                                 <ul style="line-height: 36px;">
+                                    <li><a href="#" class="linkClassblue">Boolean type</a></li>
+                                    <li><a href="#" class="linkClassblue">Null type</a></li>
+                                    <li><a href="#" class="linkClassblue">Undefined type</a></li>
+                                    <li><a href="#" class="linkClassblue">Number type</a></li>
+                                    <li><a href="#" class="linkClassblue">BigInt type</a></li>
+                                    <li><a href="#" class="linkClassblue">String type</a></li>
+                                    <li><a href="#" class="linkClassblue">Symbol type</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="#" class="linkClassblue">Objects</a> (collections of properties)</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- question no 4 -->
+                  <div class="accordion-item rounded my-3">
+                     <h2 class="accordion-header" id="flush-headingFive">
+                        <button
+                           class="accordion-button collapsed fw-bold h1Tcolor rounded "
+                           style="background-color: rgba(255, 209, 144, 0.829);border:none;"
+                           type="button"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#flush-collapseFive"
+                           aria-expanded="false"
+                           aria-controls="flush-collapseFive"
+                           >
+                        4. Javascript Condition (Else)
+                        </button>
+                     </h2>
+                     <div
+                        id="flush-collapseFive"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample"
+                        >
+                        <div class="accordion-body">
+                           <h1 class="mt-2 mb-4">Conditional Statements</h1>
+                           <p>Very often when you write code, you want to perform different actions for different decisions.</p>
+                           <p>You can use conditional statements in your code to do this.</p>
+                           <p>In JavaScript we have the following conditional statements:</p>
+                           <ul>
+                            <li>Use <a href="#" class="linkClass">if</a> to specify a block of code to be executed, if a specified condition is true</li>
+                            <li>Use <a href="#" class="linkClass">else</a> to specify a block of code to be executed, if the same condition is false</li>
+                            <li>Use  <a href="#" class="linkClass">else if</a> to specify a new condition to test, if the first condition is false</li>
+                            <li>Use <a href="#" class="linkClass">switch</a> to specify many alternative blocks of code to be executed</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- question no 5 -->
+                  <div class="accordion-item rounded ">
+                     <h2 class="accordion-header" id="flush-headingFour">
+                        <button
+                           class="accordion-button collapsed fw-bold h1Tcolor rounded"
+                           style="background-color: rgba(255, 209, 144, 0.829);border:none;"
+                           type="button"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#flush-collapseFour"
+                           aria-expanded="false"
+                           aria-controls="flush-collapseFour"
+                           >
+                        5. JS Condition (Switch)
+                        </button>
+                     </h2>
+                     <div
+                        id="flush-collapseFour"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample"
+                        >
+                        <div class="accordion-body">
+                           <h1 class="mt-2 mb-4">The JavaScript Switch Statement</h1>
+                           <p >Use the <a href="#" class="linkClassblue">'switch'</a> statement to select one of many code blocks to be executed.</p>
+                           <p>This is how it works :</p>
+                           <ul>
+                              <li>The switch expression is evaluated once.</li>
+                              <li>The value of the expression is compared with the values of each case.</li>
+                              <li>If there is a match, the associated block of code is executed.</li>
+                              <li>If there is no match, the default code block is executed.</li>
+                           </ul>
+                           <p>
+                           <h4>Syntax</h4>
+                           </p>
+                           <p>
+                              let country = "Bangladesh" <br/>
+                              <br>
+                              switch (country) { <br>
+                              case "Bangladesh": <br> 
+                              { console.log("Bangladeshi"); }<br>
+                              break;<br>
+                              case "India":<br>
+                              { console.log("Indian"); }<br>
+                              break;<br>
+                              case "Soudi Arab":<br>
+                              { console.log("Soudi Arabian"); } <br>
+                              break;<br>
+                              <br>
+                              default:<br>
+                              { console.log("Please enter correct country."); }<br>
+                              break;<br>
+                              }
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+         <!-- javascript Operators Start Here. -->
+         <div class="row mx-auto mt-4">
+            <div class="col-12 my-3 my-lg-5 mx-auto">
+               <div class="col-12 col-lg-6 mx-auto ">
+                  <h2 class="h2fontStyle text-center">6. JS Operators</h2>
+               </div>
+            </div>
+            
+            <div class="row mx-auto">
+               <div class="col-12 col-xl-6  mx-auto my-3 ">
+                  <div class="row m-0 p-3 shadow rounded" style="background-color: rgba(255, 208, 208, 0.356);">
+                     <div class="col-12">
+                        <h5 class="h5fstyle">Arecthmetic Operators.</h5>
+                        <ul class="">
+                          <li> +</li>
+                          <li> -</li>
+                          <li> *</li>
+                          <li> /</li>
+                          <li> **</li>
+<br>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-xl-6  mx-auto my-3"> 
+                  <div class="row m-0 p-3 shadow rounded" style="background-color: rgba(255, 208, 208, 0.356);">
+                     <div class="col-12">
+                        <h5 class="h5fstyle">Assingment Operators.</h5>
+                        <ul class="">
+                          <li> =</li>
+                          <li> -=</li>
+                          <li> +=</li>
+                          <li> *=</li>
+                          <li> /=</li>
+                          <li> %=</li>
+                        </ul>
+                     </div>
+                  </div>
+              </div>
+               <div class="col-12 col-xl-6  mx-auto my-3">
+                  <div class="row m-0 p-3 shadow rounded" style="background-color: rgba(255, 208, 208, 0.356);">
+                     <div class="col-12">
+                        <h5 class="h5fstyle">Increment Decrement Operators.</h5>
+                        <ul class="">
+                          <li> ++</li>
+                          <li> --</li>
+
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-xl-6  mx-auto my-3">
+                  <div class="row m-0 p-3 shadow rounded" style="background-color: rgba(255, 208, 208, 0.356);">
+                     <div class="col-12">
+                        <h5 class="h5fstyle">Concatenation Operators.</h5>
+                        <ul class="">
+                          <li> +</li>
+                          <li> +=</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         <div class="col-12">
+            <div class="row mx-auto">
+               <div class="col-12  col-lg-4 mx-auto my-3">
+                  <div class="row m-0 p-3 shadow rounded" style="background-color: rgba(255, 208, 208, 0.356);">
+                     <div class="col-12">
+                        <h5 class="h5fstyle">Comparison Operators.</h5>
+                        <ul >
+                           <li> ==</li>
+                           <li> ===</li>
+                           <li> < </li>
+                           <li> > </li>
+                           <li> <= </li>
+                           <li> >= </li>
+                           <li> != </li>
+                           <li> !== </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12  col-lg-4 my-3">
+                  <div class="row m-0 p-3 shadow rounded" style="background-color: rgba(255, 208, 208, 0.356);">
+                     <div class="col-12">
+                        <h5 class="h5fstyle">Conditional Operators.</h5>
+                        <ul >
+                           <li> &&</li>
+                           <li> ||</li>
+                          <br><br><br><br><br><br>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+                  <div class="col-12  col-lg-4 my-3">
+                     <div class="row m-0 p-3 shadow rounded" style="background-color: rgba(255, 208, 208, 0.356);">
+                        <div class="col-12">
+                           <h5 class="h5fstyle">Ternary Operators.</h5>
+                           <ul >
+                              <li> ?</li>
+                              <br><br><br><br><br><br><br>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </div>
+         </div>
+      </div>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
