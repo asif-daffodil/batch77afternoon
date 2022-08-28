@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion & Tabs Using JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- accordion html coding -->
+      <div class="col-12 text-center fontFamily mt-4">
+        <h1 class="fw-bold">FAQ</h1>
+      </div>
+      <div class="row">
+        <!-- The coding of JavaScript is done by the class here>>>>>> -->
+        <div class="col-12 col-lg-6 m-0 mt-3">
+          <!-- first question started here -->
+          <div class="col-12 mt-5 bg-white rounded">
+            <div class="col-12 header py-2 px-2">
+              <h4 class="m-0">What is Web design?</h4>
+            </div>
+            <div class="details">
+              <p class="py-2 px-2 text-muted">
+                Web design is lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Unde dolore ipsam tempore repudiandae, cumque modi fugit
+                quas sunt exercitationem perspiciatis. lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Tenetur quos consectetur odio
+                deserunt quam voluptates molestiae ex rerum. Aspernatur, eaque.
+              </p>
+            </div>
+          </div>
+
+          <!-- second question started here -->
+
+          <div class="col-12 mt-2 bg-white rounded">
+            <div class="col-12 header py-2 px-2">
+              <h4 class="m-0">What is Html?</h4>
+            </div>
+            <div class="details">
+              <p class="py-2 px-2 text-muted">
+                Html is lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Unde dolore ipsam tempore repudiandae, cumque modi fugit quas
+                sunt exercitationem perspiciatis. lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Tenetur quos consectetur odio
+                deserunt quam voluptates molestiae ex rerum. Aspernatur, eaque.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                nam blanditiis earum deserunt cumque exercitationem facilis ut
+                unde illo. Tempora.
+              </p>
+            </div>
+          </div>
+
+          <!-- third question started here -->
+
+          <div class="col-12 mt-2 bg-white rounded">
+            <div class="col-12 header py-2 px-2">
+              <h4 class="m-0">What is Css?</h4>
+            </div>
+            <div class="details">
+              <p class="py-2 px-2 text-muted">
+                Css is lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Unde dolore ipsam tempore repudiandae, cumque modi fugit quas
+                sunt exercitationem perspiciatis. lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Tenetur quos consectetur odio
+                deserunt quam voluptates molestiae ex rerum. Aspernatur, eaque.
+              </p>
+            </div>
+          </div>
+
+          <!-- fourth question started here -->
+
+          <div class="col-12 mt-2 bg-white rounded">
+            <div class="col-12 header py-2 px-2">
+              <h4 class="m-0">What is Bootstrap?</h4>
+            </div>
+            <div class="details">
+              <p class="py-2 px-2 text-muted">
+                Bootstrap is lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Unde dolore ipsam tempore repudiandae, cumque modi fugit
+                quas sunt exercitationem perspiciatis. lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Tenetur quos consectetur odio
+                deserunt quam voluptates molestiae ex rerum. Aspernatur, eaque.
+                Similique nobis nulla temporibus accusantium voluptatibus odio
+                officia unde rem impedit expedita, ratione commodi tempore
+                sapiente ex autem laudantium ut sint perspiciatis eligendi
+                fugiat repudiandae itaque.
+              </p>
+            </div>
+          </div>
+
+          <!-- fifth question started here -->
+
+          <div class="col-12 mt-2 bg-white rounded">
+            <div class="col-12 header py-2 px-2">
+              <h4 class="m-0">What is JavaScript?</h4>
+            </div>
+            <div class="details">
+              <p class="py-2 px-2 text-muted">
+                JavaScript is lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Unde dolore ipsam tempore repudiandae, cumque modi fugit
+                quas sunt exercitationem perspiciatis. lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Tenetur quos consectetur odio
+                deserunt quam voluptates molestiae ex rerum. Aspernatur, eaque.
+              </p>
+            </div>
+          </div>
+
+          <!-- seventh question started here -->
+
+          <div class="col-12 mt-2 bg-white rounded">
+            <div class="col-12 header py-2 px-2">
+              <h4 class="m-0">What is web development ?</h4>
+            </div>
+            <div class="details">
+              <p class="py-2 px-2 text-muted">
+                Web development is lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Unde dolore ipsam tempore repudiandae, cumque
+                modi fugit quas sunt exercitationem perspiciatis. lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Tenetur quos
+                consectetur odio deserunt quam voluptates molestiae ex rerum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                aliquam asperiores quidem incidunt neque eligendi iure voluptate
+                in obcaecati omnis nostrum fugiat, delectus tempora possimus
+                repudiandae corrupti quisquam fuga nulla?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Picture of the right side of the accroding -->
+        <div class="d-none d-lg-block col-lg-6 mt-5 text-center m-auto">
+          <img
+            src="./images/Sentiment analysis-rafiki.png"
+            alt=""
+            style="width: 350px"
+          />
+        </div>
+      </div>
+
+      <!-- tabs html coding started here -->
+
+      <div class="col-12 tabsAllDiv mb-5">
+        <!-- tittle -->
+        <div class="col-12 text-center fontFamily my-5">
+          <h1 class="fw-bold">TABs</h1>
+        </div>
+        <!-- tabs manu -->
+        <div
+          class="row m-0 manuTabsBorderBottom"
+          style="background-color: #fbfbfb"
+        >
+          <div
+            class="col-12 col-lg-3 text-center text-black p-3 bordeWidthEnd fw-bold textStyle activeTab tabManuBtn m-auto"
+          >
+            <i class="fa-solid fa-envelope textManuColor"></i>
+            <span class="textManuColor">LETTER</span>
+          </div>
+          <div
+            class="col-12 col-lg-3 text-center text-black p-3 bordeWidthEnd fw-bold textStyle tabManuBtn m-auto"
+          >
+            <i class="fa-solid fa-comment-sms textManuColor"></i>
+            <span class="textManuColor">SMS</span>
+          </div>
+          <div
+            class="col-12 col-lg-3 text-center text-black p-3 bordeWidthEnd fw-bold textStyle tabManuBtn m-auto"
+          >
+            <i class="fa-solid fa-phone textManuColor"></i>
+            <span class="textManuColor">PHONE</span>
+          </div>
+          <div
+            class="col-12 col-lg-3 text-center text-black p-3 fw-bold textStyle tabManuBtn m-auto"
+          >
+            <i class="fa-solid fa-mobile-screen-button textManuColor"></i>
+            <span class="textManuColor">SMART PHONE</span>
+          </div>
+        </div>
+        <!-- tabs details -->
+        <div
+          class="col-12 p-4 border rounded my-3 detailsFullDiv"
+          style="background-color: #fbfbfb"
+        >
+          <div class="tabsDetails letterBefore">
+            <h2 class="fw-bold">Letter</h2>
+            <p class="text-muted">
+              Letter Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Officiis quibusdam eveniet eaque accusantium qui autem ab veniam
+              quam rerum deleniti?Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Voluptates quidem aliquid accusantium cumque
+              incidunt illo explicabo tenetur minus, eius et a odit deserunt
+              quisquam quod quae eveniet iusto numquam, tempora placeat hic
+              laboriosam ipsum! Ex quibusdam tempora saepe facere impedit
+              consectetur enim velit dignissimos. Quasi aliquam illum molestias
+              veritatis dolores! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Ducimus alias asperiores tenetur earum voluptate
+              odit magnam libero est distinctio aspernatur? Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.
+              <br /><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              accusantium totam porro molestias molestiae veritatis cumque
+              assumenda consequuntur, fuga ipsum, vitae commodi exercitationem
+              nulla delectus nemo. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Fugiat vel recusandae facere est ipsam quas
+              quisquam! Eveniet iusto quisquam, non amet consectetur ipsam iste
+              delectus blanditiis natus sequi eos nisi ab officiis ex corporis
+              ut nostrum est nobis dolor, omnis, explicabo magni excepturi. Sunt
+              quod repudiandae incidunt labore, error nesciunt aut ducimus
+              officiis debitis porro qui quibusdam molestiae. Sit, qui. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Animi
+              accusantium consectetur placeat ratione, aliquid officiis qui
+              rerum doloremque quis fuga architecto expedita, debitis corrupti.
+              Rem at corporis ratione est dolorem eligendi eos exercitationem
+              nam odit atque, hic vitae accusamus quis aliquid facere ullam,
+              cumque similique harum dolor nihil laudantium beatae. Pariatur,
+              voluptatem.
+            </p>
+          </div>
+          <div class="tabsDetails d-none smsBefore">
+            <h2 class="fw-bold">SMS</h2>
+            <p class="text-muted">
+              Sms Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Officiis quibusdam eveniet eaque accusantium qui autem ab veniam
+              quam rerum deleniti?Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Voluptates quidem aliquid accusantium cumque
+              incidunt illo explicabo tenetur minus, eius et a odit deserunt
+              quisquam quod quae eveniet iusto numquam, tempora placeat hic
+              laboriosam ipsum! Ex quibusdam tempora saepe facere impedit
+              consectetur enim velit dignissimos. Quasi aliquam illum molestias
+              veritatis dolores! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Ducimus alias asperiores tenetur earum voluptate
+              odit magnam libero est distinctio aspernatur? Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.
+              <br /><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              accusantium totam porro molestias molestiae veritatis cumque
+              assumenda consequuntur, fuga ipsum, vitae commodi exercitationem
+              nulla delectus nemo. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Fugiat vel recusandae facere est ipsam quas
+              quisquam! Eveniet iusto quisquam, non amet consectetur ipsam iste
+              delectus blanditiis natus sequi eos nisi ab officiis ex corporis
+              ut nostrum est nobis dolor, omnis, explicabo magni excepturi. Sunt
+              quod repudiandae incidunt labore, error nesciunt aut ducimus
+              officiis debitis porro qui quibusdam molestiae. Sit, qui. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Animi
+              accusantium consectetur placeat ratione, aliquid officiis qui
+              rerum doloremque quis fuga architecto expedita, debitis corrupti.
+              Rem at corporis ratione est dolorem eligendi eos exercitationem
+              nam odit atque, hic vitae accusamus quis aliquid facere ullam,
+              cumque similique harum dolor nihil laudantium beatae. Pariatur,
+              voluptatem.
+            </p>
+          </div>
+          <div class="tabsDetails d-none phoneBefore">
+            <h2 class="fw-bold">PHONE</h2>
+            <p class="text-muted">
+              Phone Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Officiis quibusdam eveniet eaque accusantium qui autem ab veniam
+              quam rerum deleniti?Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Voluptates quidem aliquid accusantium cumque
+              incidunt illo explicabo tenetur minus, eius et a odit deserunt
+              quisquam quod quae eveniet iusto numquam, tempora placeat hic
+              laboriosam ipsum! Ex quibusdam tempora saepe facere impedit
+              consectetur enim velit dignissimos. Quasi aliquam illum molestias
+              veritatis dolores! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Ducimus alias asperiores tenetur earum voluptate
+              odit magnam libero est distinctio aspernatur? Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.
+              <br /><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              accusantium totam porro molestias molestiae veritatis cumque
+              assumenda consequuntur, fuga ipsum, vitae commodi exercitationem
+              nulla delectus nemo. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Fugiat vel recusandae facere est ipsam quas
+              quisquam! Eveniet iusto quisquam, non amet consectetur ipsam iste
+              delectus blanditiis natus sequi eos nisi ab officiis ex corporis
+              ut nostrum est nobis dolor, omnis, explicabo magni excepturi. Sunt
+              quod repudiandae incidunt labore, error nesciunt aut ducimus
+              officiis debitis porro qui quibusdam molestiae. Sit, qui. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Animi
+              accusantium consectetur placeat ratione, aliquid officiis qui
+              rerum doloremque quis fuga architecto expedita, debitis corrupti.
+              Rem at corporis ratione est dolorem eligendi eos exercitationem
+              nam odit atque, hic vitae accusamus quis aliquid facere ullam,
+              cumque similique harum dolor nihil laudantium beatae. Pariatur,
+              voluptatem.
+            </p>
+          </div>
+          <div class="tabsDetails d-none smartphoneBefore">
+            <h2 class="fw-bold">SMART PHONE</h2>
+            <p class="text-muted">
+              Smart phone Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Officiis quibusdam eveniet eaque accusantium qui autem ab
+              veniam quam rerum deleniti?Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Voluptates quidem aliquid accusantium cumque
+              incidunt illo explicabo tenetur minus, eius et a odit deserunt
+              quisquam quod quae eveniet iusto numquam, tempora placeat hic
+              laboriosam ipsum! Ex quibusdam tempora saepe facere impedit
+              consectetur enim velit dignissimos. Quasi aliquam illum molestias
+              veritatis dolores! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Ducimus alias asperiores tenetur earum voluptate
+              odit magnam libero est distinctio aspernatur? Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.
+              <br /><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              accusantium totam porro molestias molestiae veritatis cumque
+              assumenda consequuntur, fuga ipsum, vitae commodi exercitationem
+              nulla delectus nemo. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Fugiat vel recusandae facere est ipsam quas
+              quisquam! Eveniet iusto quisquam, non amet consectetur ipsam iste
+              delectus blanditiis natus sequi eos nisi ab officiis ex corporis
+              ut nostrum est nobis dolor, omnis, explicabo magni excepturi. Sunt
+              quod repudiandae incidunt labore, error nesciunt aut ducimus
+              officiis debitis porro qui quibusdam molestiae. Sit, qui. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Animi
+              accusantium consectetur placeat ratione, aliquid officiis qui
+              rerum doloremque quis fuga architecto expedita, debitis corrupti.
+              Rem at corporis ratione est dolorem eligendi eos exercitationem
+              nam odit atque, hic vitae accusamus quis aliquid facere ullam,
+              cumque similique harum dolor nihil laudantium beatae. Pariatur,
+              voluptatem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- java script link up  -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

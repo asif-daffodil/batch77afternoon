@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  background-color: #31485e;
+  font-family: arial;
+}
+
+.fontFamily {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  color: white;
+}
+
+.header {
+  font-family: "Berkshire Swash", cursive;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header:hover {
+  background-color: rgb(198, 229, 255);
+  border-radius: 8px 8px 0px 0px;
+  transition: 0.3s;
+}
+.header::before {
+  content: "+";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+
+.details {
+  max-height: 0;
+  overflow: hidden;
+  font-family: "Josefin Sans", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+.active {
+  background-color: rgb(198, 229, 255);
+  border-radius: 8px 8px 0px 0px;
+  transition: 0.3s;
+}
+.active::before {
+  content: "+";
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+
+.textStyle {
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.textStyle:hover {
+  background-color: rgb(206, 232, 255);
+}
+.textStyle:hover > .textManuColor {
+  color: rgb(0, 89, 255);
+}
+
+.textManuColor {
+  color: rgb(94, 94, 94);
+}
+
+.detailsFullDiv .tabsDetails {
+  font-family: "Josefin Sans", sans-serif;
+  transition: 0.3s;
+}
+
+.activeTab {
+  background-color: rgb(206, 232, 255);
+  transition: 0.3s;
+}
+.activeTab > .textManuColor {
+  color: rgb(0, 89, 255);
+  transition: 0.3s;
+}
+
+.bordeWidthEnd {
+  border-right: 2px solid rgb(0, 34, 146);
+}
+
+.tabsAllDiv {
+  margin-top: 120px;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 992px) {
+  .bordeWidthEnd {
+    border-right: none;
+    border-bottom: 2px solid rgb(0, 89, 255);
+  }
+  .letterBefore::before,
+.smsBefore::before,
+.phoneBefore::before,
+.smartphoneBefore::before {
+    display: none;
+  }
+}
+.letterBefore {
+  position: relative;
+}
+.letterBefore::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #31485e;
+  transform: rotate(45deg);
+  top: -36px;
+  left: 10%;
+}
+
+.smsBefore {
+  position: relative;
+}
+.smsBefore::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #31485e;
+  transform: rotate(45deg);
+  top: -36px;
+  left: 36%;
+}
+
+.phoneBefore {
+  position: relative;
+}
+.phoneBefore::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #31485e;
+  transform: rotate(45deg);
+  top: -36px;
+  left: 62%;
+}
+
+.smartphoneBefore {
+  position: relative;
+}
+.smartphoneBefore::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #31485e;
+  transform: rotate(45deg);
+  top: -36px;
+  left: 88%;
+}/*# sourceMappingURL=style.css.map */
