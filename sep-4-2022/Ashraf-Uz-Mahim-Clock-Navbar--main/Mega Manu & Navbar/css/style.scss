@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/7ObwpI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(59, 59, 59, 0.473);
+  //   icon image & icon text css ---------->>>>>>>>>>>>>>
+  > .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    > .iconText {
+      text-align: center;
+      font-weight: bold;
+      font-size: 22px;
+      margin-left: 6px;
+      color: rgb(255, 115, 0);
+      font-family: monospace;
+      transition: 0.3s;
+      &:hover {
+        color: #f79301;
+      }
+    }
+  }
+  //   navigation css started here -------->>>>>>>>>>>>>>>>>>>>
+  > nav {
+    position: relative;
+    > ul {
+      display: flex;
+      > li {
+        list-style: none;
+        margin: 0 4px;
+        padding: 0 6px;
+        > a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: bold;
+          font-family: arial;
+          font-size: 18px;
+          line-height: 50px;
+          transition: 0.3s ease-in-out;
+          &:hover {
+            color: #f79301;
+          }
+        }
+      }
+    }
+  }
+}
+
+// important using class
+
+.activeBar {
+  > a {
+    color: #f79301 !important;
+  }
+}
+.displayNone {
+  display: none !important;
+}
+.z-index {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  z-index: -10;
+}
+
+// dropdown manubar design started here
+
+// ancor tag mixin.
+
+@mixin fontColor {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: arial;
+  font-variant: small-caps;
+  color: rgb(255, 255, 255);
+}
+
+.manubarDropdown {
+  position: absolute;
+  right: 0;
+  width: 1000px;
+  > div {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+
+    border-radius: 0px 0px 16px 16px;
+    background-image: linear-gradient(
+      #f79301,
+      rgba(141, 141, 141, 0.877),
+      rgb(94, 94, 255)
+    );
+    > ul {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      > :first-child {
+        padding-bottom: 20px;
+        > a {
+          color: #000;
+          font-size: 22px;
+          font-weight: bold;
+          font-family: arial;
+          font-variant: small-caps;
+          &:hover {
+            color: #000;
+          }
+        }
+      }
+      > li {
+        list-style: none;
+        > a {
+          text-decoration: none;
+          @include fontColor();
+          transition: 0.3s ease-in-out;
+          line-height: 20px;
+          &:hover {
+            color: #5e4832;
+          }
+        }
+      }
+    }
+  }
+}
+// degital clock css coding ---->>>>>>>>>>>>>>>>>>>>>>>
+
+.main {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  background-color: #000000a8;
+  margin-top: 5% !important;
+  margin: auto;
+  width: 500px;
+  height: 100%;
+  padding: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 30px rgb(139, 139, 139),
+    0 0 30px inset rgba(255, 255, 255, 0.664);
+  > .time {
+    display: block;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  > div {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    > .date {
+      padding-right: 35px;
+      color: rgb(236, 142, 0);
+      font-weight: bold;
+      font-size: 32px;
+      letter-spacing: 1px;
+      font-family: arial;
+    }
+  }
+  > .week {
+    padding-right: 35px;
+    margin-top: 6px;
+    font-size: 26px;
+    font-weight: bolder;
+    color: rgb(221, 133, 0);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
